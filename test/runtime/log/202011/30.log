@@ -1,0 +1,1442 @@
+---------------------------------------------------------------
+[ 2020-11-30T00:49:53+08:00 ] 104.131.90.16 HEAD lehai.saifer.club/
+[运行时间：0.068175s] [吞吐率：14.67req/s] [内存消耗：2,059.23kb] [文件加载：110]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003199s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000911s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-30T02:17:36+08:00 ] 218.5.79.38 GET lehai.saifer.club/
+[运行时间：0.029952s] [吞吐率：33.39req/s] [内存消耗：2,059.47kb] [文件加载：110]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001452s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000241s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-30T11:40:07+08:00 ] 180.78.60.207 GET lehai.saifer.club/index/index/getMyDoctor?session_id=ru2cl5d1jsjvp7rp8j7rsccn3e
+[运行时间：0.211427s] [吞吐率：4.73req/s] [内存消耗：2,440.88kb] [文件加载：117]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.013748s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.002580s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getMyDoctor',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd8ef515ae2418d12/0/page-frame.html',
+  'x-access-token' => '',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LRA-AL00 Build/HONORLRA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201001 Mobile Safari/537.36 MMWEBID/1523 MicroMessenger/7.0.20.1781(0x270014E5) Process/appbrand0 WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'connection' => 'keep-alive',
+  'host' => 'lehai.saifer.club',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'session_id' => 'ru2cl5d1jsjvp7rp8j7rsccn3e',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003906s ]
+[ info ] [ RUN ] app\index\controller\index->getMyDoctor[ /www/wwwroot/lehai.saifer.club/test/application/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-30T11:40:13+08:00 ] 180.78.60.207 POST lehai.saifer.club/index/login/Login
+[运行时间：0.261348s] [吞吐率：3.83req/s] [内存消耗：3,688.91kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001276s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000258s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'Login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd8ef515ae2418d12/0/page-frame.html',
+  'x-access-token' => '',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LRA-AL00 Build/HONORLRA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201001 Mobile Safari/537.36 MMWEBID/1523 MicroMessenger/7.0.20.1781(0x270014E5) Process/appbrand0 WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'content-length' => '659',
+  'connection' => 'keep-alive',
+  'host' => 'lehai.saifer.club',
+)
+[ info ] [ PARAM ] array (
+  'code' => '031KW3Ga1E3W4A0JatHa1FKGZS1KW3G2',
+  'iv' => '6wyvINIzzdMLNC22lGNXfg==',
+  'encryptedData' => 'fcz2DqJtDgl1HSJKAz5cKHdhnJfNZWUzbevV0+Y6+c4qO8gvxhOl6buS3FWp0M30DDHc4sCKMJNZQPdmn/El1O42NBmjSFwIAaGFVEeK1szfQeX/GTojTRnmGiirSeS/2MxV/3daXC7c/tQf4t51QcJae5tmj/K83fLOD+5dMFB4fLWYKGiqJteJ1ow5D7MvpBJqJ9nwKj7Kq68rAl1OS6sotPQTSmrpZUg2W9W6c8j89QJmqXyI7rlpL88RovhZOvGle6YjO3Dg4/zsQsju2pDcinaNlvIP6PrcDr/HLuuH51+Kno19UbJJN8OLaw0k8k5R0JiGniFLMW59noEheQZDGpMnYy/WzEOdHsRL9PWIPVGqvzwB/QnoWaP0QqOfEowM1uUhaEGlH95lrIOQZSVZBB22L+JRhKi0beJ5DqfHwzFLaSsSc9llFFJtRzVfUoWA7hSaanWDsaXeFIRjln+/lUk/K5VYni7M1FfdD5E=',
+  'appid' => 'wxd8ef515ae2418d12',
+  'secret' => 'a33520ee2bfdf8dd9831a63a24eb8375',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001645s ]
+[ info ] [ RUN ] app\index\controller\Login->Login[ /www/wwwroot/lehai.saifer.club/test/application/index/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-30T11:40:15+08:00 ] 180.78.60.207 GET lehai.saifer.club/index/index/getMyDoctor?session_id=4q71jhrkgbotsevc9irjgph5o2
+[运行时间：0.051686s] [吞吐率：19.35req/s] [内存消耗：3,522.63kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001287s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000552s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getMyDoctor',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd8ef515ae2418d12/0/page-frame.html',
+  'x-access-token' => '',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LRA-AL00 Build/HONORLRA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201001 Mobile Safari/537.36 MMWEBID/1523 MicroMessenger/7.0.20.1781(0x270014E5) Process/appbrand0 WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'connection' => 'keep-alive',
+  'host' => 'lehai.saifer.club',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'session_id' => '4q71jhrkgbotsevc9irjgph5o2',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001531s ]
+[ info ] [ RUN ] app\index\controller\index->getMyDoctor[ /www/wwwroot/lehai.saifer.club/test/application/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-30T11:41:19+08:00 ] 180.78.60.207 GET lehai.saifer.club/index/Calorie/getType?offset=0&length=10
+[运行时间：0.038552s] [吞吐率：25.94req/s] [内存消耗：3,186.09kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001225s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000253s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Calorie',
+    2 => 'getType',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd8ef515ae2418d12/0/page-frame.html',
+  'x-access-token' => '',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LRA-AL00 Build/HONORLRA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201001 Mobile Safari/537.36 MMWEBID/1523 MicroMessenger/7.0.20.1781(0x270014E5) Process/appbrand0 WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'connection' => 'keep-alive',
+  'host' => 'lehai.saifer.club',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'length' => '10',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001201s ]
+[ info ] [ RUN ] app\index\controller\Calorie->getType[ /www/wwwroot/lehai.saifer.club/test/application/index/controller/Calorie.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-30T11:41:21+08:00 ] 180.78.60.207 GET lehai.saifer.club/index/Calorie/getProduct?type_id=4&offset=0&length=100000
+[运行时间：0.040561s] [吞吐率：24.65req/s] [内存消耗：3,205.30kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001179s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000244s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Calorie',
+    2 => 'getProduct',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd8ef515ae2418d12/0/page-frame.html',
+  'x-access-token' => '',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LRA-AL00 Build/HONORLRA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201001 Mobile Safari/537.36 MMWEBID/1523 MicroMessenger/7.0.20.1781(0x270014E5) Process/appbrand0 WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'connection' => 'keep-alive',
+  'host' => 'lehai.saifer.club',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'type_id' => '4',
+  'offset' => '0',
+  'length' => '100000',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001188s ]
+[ info ] [ RUN ] app\index\controller\Calorie->getProduct[ /www/wwwroot/lehai.saifer.club/test/application/index/controller/Calorie.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-30T11:41:32+08:00 ] 180.78.60.207 POST lehai.saifer.club/index/Calorie/getDetail
+[运行时间：0.042636s] [吞吐率：23.45req/s] [内存消耗：3,216.66kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001277s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000604s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Calorie',
+    2 => 'getDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd8ef515ae2418d12/0/page-frame.html',
+  'x-access-token' => '',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LRA-AL00 Build/HONORLRA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201001 Mobile Safari/537.36 MMWEBID/1523 MicroMessenger/7.0.20.1781(0x270014E5) Process/appbrand0 WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'content-length' => '12',
+  'connection' => 'keep-alive',
+  'host' => 'lehai.saifer.club',
+)
+[ info ] [ PARAM ] array (
+  'id' => '188',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001381s ]
+[ info ] [ RUN ] app\index\controller\Calorie->getDetail[ /www/wwwroot/lehai.saifer.club/test/application/index/controller/Calorie.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-30T11:42:42+08:00 ] 180.78.60.207 GET lehai.saifer.club/index/index/getMyDoctor?session_id=4q71jhrkgbotsevc9irjgph5o2
+[运行时间：0.052229s] [吞吐率：19.15req/s] [内存消耗：3,522.63kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001251s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000268s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getMyDoctor',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd8ef515ae2418d12/2/page-frame.html',
+  'x-access-token' => '',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LRA-AL00 Build/HONORLRA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201001 Mobile Safari/537.36 MMWEBID/1523 MicroMessenger/7.0.20.1781(0x270014E5) Process/appbrand0 WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'connection' => 'keep-alive',
+  'host' => 'lehai.saifer.club',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'session_id' => '4q71jhrkgbotsevc9irjgph5o2',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001334s ]
+[ info ] [ RUN ] app\index\controller\index->getMyDoctor[ /www/wwwroot/lehai.saifer.club/test/application/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-30T16:39:29+08:00 ] 180.78.60.207 GET lehai.saifer.club/index/index/getMyDoctor?session_id=4q71jhrkgbotsevc9irjgph5o2
+[运行时间：0.077676s] [吞吐率：12.87req/s] [内存消耗：2,440.88kb] [文件加载：117]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004110s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001377s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getMyDoctor',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd8ef515ae2418d12/2/page-frame.html',
+  'x-access-token' => '',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LRA-AL00 Build/HONORLRA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201001 Mobile Safari/537.36 MMWEBID/1523 MicroMessenger/7.0.20.1781(0x270014E5) Process/appbrand0 WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'connection' => 'keep-alive',
+  'host' => 'lehai.saifer.club',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'session_id' => '4q71jhrkgbotsevc9irjgph5o2',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002280s ]
+[ info ] [ RUN ] app\index\controller\index->getMyDoctor[ /www/wwwroot/lehai.saifer.club/test/application/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-30T16:39:48+08:00 ] 180.78.60.207 POST lehai.saifer.club/index/login/Login
+[运行时间：0.210986s] [吞吐率：4.74req/s] [内存消耗：3,688.91kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001201s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000252s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'Login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd8ef515ae2418d12/0/page-frame.html',
+  'x-access-token' => '',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LRA-AL00 Build/HONORLRA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201001 Mobile Safari/537.36 MMWEBID/1523 MicroMessenger/7.0.20.1781(0x270014E5) Process/appbrand0 WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'content-length' => '659',
+  'connection' => 'keep-alive',
+  'host' => 'lehai.saifer.club',
+)
+[ info ] [ PARAM ] array (
+  'code' => '071ga5Ga1ehO4A0OzIFa1GjUT31ga5GL',
+  'iv' => 'aLCJhHTwL2sdB7KQy7SxEA==',
+  'encryptedData' => 'av5TxfdSf8XpEJJJ8DCNZxkDkKoJJqoZjg8/ddOE6rJk6eLMGo4Kk2s4fZZorqClxBuXT+dAx+N92Di7FTN6Ra7QI3ykB+mlwJbnVEgvI1peq0Dq8CMb+L63NXSnpduHhLTGXLPG7n+uqsZSrULsG7cN7RVQApJDCdg9XFvXZAUuOzz02LqKQCDEhjg+E9FKy3PN6pV+gG0YLdYCSys26ZGyUZVDA0is06iKUfloMT93HRRzdd5AFTluuXK5/O0+py0QDn0gDMVhY3AaBapgg0mrHNOweMSQ0Hpc2F0Jm3/gj+v5cdQRiEph0EynF0FXX+SJaJLJOyce4oixiP5bJqaTmIWMZ1eyozaHn+QrLtQ44jTCVLThsUcwPg4aCgDIvl49zaE7y2DzfEQ8SSAIH7IxDcg4rAaWZ6VOwLb2h7N0Krs41PGEUW7feiEE1eXRHaZOmrDHi3zMnuh+9ngHn26TgdrL24SW8auYfsj3Vqg=',
+  'appid' => 'wxd8ef515ae2418d12',
+  'secret' => 'a33520ee2bfdf8dd9831a63a24eb8375',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001259s ]
+[ info ] [ RUN ] app\index\controller\Login->Login[ /www/wwwroot/lehai.saifer.club/test/application/index/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-30T16:39:51+08:00 ] 180.78.60.207 GET lehai.saifer.club/index/index/getMyDoctor?session_id=gfgl7n0agstfm7b9g0eff44a8u
+[运行时间：0.046370s] [吞吐率：21.57req/s] [内存消耗：3,522.63kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001166s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000283s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getMyDoctor',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd8ef515ae2418d12/0/page-frame.html',
+  'x-access-token' => '',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LRA-AL00 Build/HONORLRA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201001 Mobile Safari/537.36 MMWEBID/1523 MicroMessenger/7.0.20.1781(0x270014E5) Process/appbrand0 WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'connection' => 'keep-alive',
+  'host' => 'lehai.saifer.club',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'session_id' => 'gfgl7n0agstfm7b9g0eff44a8u',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001271s ]
+[ info ] [ RUN ] app\index\controller\index->getMyDoctor[ /www/wwwroot/lehai.saifer.club/test/application/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-30T16:39:53+08:00 ] 180.78.60.207 GET lehai.saifer.club/index/Calorie/getType?offset=0&length=10
+[运行时间：0.039478s] [吞吐率：25.33req/s] [内存消耗：3,186.09kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001279s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000253s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Calorie',
+    2 => 'getType',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd8ef515ae2418d12/0/page-frame.html',
+  'x-access-token' => '',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LRA-AL00 Build/HONORLRA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201001 Mobile Safari/537.36 MMWEBID/1523 MicroMessenger/7.0.20.1781(0x270014E5) Process/appbrand0 WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'connection' => 'keep-alive',
+  'host' => 'lehai.saifer.club',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'offset' => '0',
+  'length' => '10',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001199s ]
+[ info ] [ RUN ] app\index\controller\Calorie->getType[ /www/wwwroot/lehai.saifer.club/test/application/index/controller/Calorie.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-30T16:41:51+08:00 ] 180.78.60.207 GET lehai.saifer.club/index/Real_Chat/getMessage?session_id=gfgl7n0agstfm7b9g0eff44a8u&offset=0&length=20000&type=0
+[运行时间：0.066043s] [吞吐率：15.14req/s] [内存消耗：3,587.38kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001237s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000253s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Real_Chat',
+    2 => 'getMessage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd8ef515ae2418d12/0/page-frame.html',
+  'x-access-token' => '',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LRA-AL00 Build/HONORLRA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201001 Mobile Safari/537.36 MMWEBID/1523 MicroMessenger/7.0.20.1781(0x270014E5) Process/appbrand0 WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'connection' => 'keep-alive',
+  'host' => 'lehai.saifer.club',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'session_id' => 'gfgl7n0agstfm7b9g0eff44a8u',
+  'offset' => '0',
+  'length' => '20000',
+  'type' => '0',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001258s ]
+[ info ] [ RUN ] app\index\controller\RealChat->getMessage[ /www/wwwroot/lehai.saifer.club/test/application/index/controller/RealChat.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-30T16:41:52+08:00 ] 180.78.60.207 GET lehai.saifer.club/
+[运行时间：0.034636s] [吞吐率：28.87req/s] [内存消耗：2,061.09kb] [文件加载：110]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001178s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000268s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-30T16:41:55+08:00 ] 180.78.60.207 GET lehai.saifer.club/index/plan/getInfo?session_id=gfgl7n0agstfm7b9g0eff44a8u
+[运行时间：0.043270s] [吞吐率：23.11req/s] [内存消耗：3,557.18kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001237s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000254s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'plan',
+    2 => 'getInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd8ef515ae2418d12/0/page-frame.html',
+  'x-access-token' => '',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LRA-AL00 Build/HONORLRA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201001 Mobile Safari/537.36 MMWEBID/1523 MicroMessenger/7.0.20.1781(0x270014E5) Process/appbrand0 WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'connection' => 'keep-alive',
+  'host' => 'lehai.saifer.club',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'session_id' => 'gfgl7n0agstfm7b9g0eff44a8u',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001261s ]
+[ info ] [ RUN ] app\index\controller\Plan->getInfo[ /www/wwwroot/lehai.saifer.club/test/application/index/controller/Plan.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-30T16:41:55+08:00 ] 180.78.60.207 GET lehai.saifer.club/index/plan/getList?session_id=gfgl7n0agstfm7b9g0eff44a8u&offset=0&length=5&type=0
+[运行时间：0.041870s] [吞吐率：23.88req/s] [内存消耗：3,551.28kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001225s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000276s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'plan',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd8ef515ae2418d12/0/page-frame.html',
+  'x-access-token' => '',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LRA-AL00 Build/HONORLRA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201001 Mobile Safari/537.36 MMWEBID/1523 MicroMessenger/7.0.20.1781(0x270014E5) Process/appbrand0 WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'connection' => 'keep-alive',
+  'host' => 'lehai.saifer.club',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'session_id' => 'gfgl7n0agstfm7b9g0eff44a8u',
+  'offset' => '0',
+  'length' => '5',
+  'type' => '0',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001252s ]
+[ info ] [ RUN ] app\index\controller\Plan->getList[ /www/wwwroot/lehai.saifer.club/test/application/index/controller/Plan.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-30T16:42:02+08:00 ] 180.78.60.207 GET lehai.saifer.club/index/index/getMyDoctor?session_id=gfgl7n0agstfm7b9g0eff44a8u
+[运行时间：0.063455s] [吞吐率：15.76req/s] [内存消耗：3,522.63kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001803s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000425s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getMyDoctor',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd8ef515ae2418d12/0/page-frame.html',
+  'x-access-token' => '',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LRA-AL00 Build/HONORLRA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201001 Mobile Safari/537.36 MMWEBID/1523 MicroMessenger/7.0.20.1781(0x270014E5) Process/appbrand0 WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'connection' => 'keep-alive',
+  'host' => 'lehai.saifer.club',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'session_id' => 'gfgl7n0agstfm7b9g0eff44a8u',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002146s ]
+[ info ] [ RUN ] app\index\controller\index->getMyDoctor[ /www/wwwroot/lehai.saifer.club/test/application/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-30T16:42:05+08:00 ] 180.78.60.207 GET lehai.saifer.club/index/plan/getInfo?session_id=gfgl7n0agstfm7b9g0eff44a8u
+[运行时间：0.055741s] [吞吐率：17.94req/s] [内存消耗：3,557.18kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001667s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000403s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'plan',
+    2 => 'getInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd8ef515ae2418d12/0/page-frame.html',
+  'x-access-token' => '',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LRA-AL00 Build/HONORLRA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201001 Mobile Safari/537.36 MMWEBID/1523 MicroMessenger/7.0.20.1781(0x270014E5) Process/appbrand0 WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'connection' => 'keep-alive',
+  'host' => 'lehai.saifer.club',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'session_id' => 'gfgl7n0agstfm7b9g0eff44a8u',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002283s ]
+[ info ] [ RUN ] app\index\controller\Plan->getInfo[ /www/wwwroot/lehai.saifer.club/test/application/index/controller/Plan.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-30T16:42:05+08:00 ] 180.78.60.207 GET lehai.saifer.club/index/plan/getList?session_id=gfgl7n0agstfm7b9g0eff44a8u&offset=0&length=5&type=0
+[运行时间：0.057270s] [吞吐率：17.46req/s] [内存消耗：3,551.28kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003302s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000273s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'plan',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd8ef515ae2418d12/0/page-frame.html',
+  'x-access-token' => '',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LRA-AL00 Build/HONORLRA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201001 Mobile Safari/537.36 MMWEBID/1523 MicroMessenger/7.0.20.1781(0x270014E5) Process/appbrand0 WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'connection' => 'keep-alive',
+  'host' => 'lehai.saifer.club',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'session_id' => 'gfgl7n0agstfm7b9g0eff44a8u',
+  'offset' => '0',
+  'length' => '5',
+  'type' => '0',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001258s ]
+[ info ] [ RUN ] app\index\controller\Plan->getList[ /www/wwwroot/lehai.saifer.club/test/application/index/controller/Plan.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-30T16:42:19+08:00 ] 180.78.60.207 GET lehai.saifer.club/index/login/loginDoctor?username=admin&password=123456
+[运行时间：0.041287s] [吞吐率：24.22req/s] [内存消耗：3,207.81kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001682s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000311s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'loginDoctor',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd8ef515ae2418d12/0/page-frame.html',
+  'x-access-token' => '',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LRA-AL00 Build/HONORLRA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201001 Mobile Safari/537.36 MMWEBID/1523 MicroMessenger/7.0.20.1781(0x270014E5) Process/appbrand0 WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'connection' => 'keep-alive',
+  'host' => 'lehai.saifer.club',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001402s ]
+[ info ] [ RUN ] app\index\controller\Login->loginDoctor[ /www/wwwroot/lehai.saifer.club/test/application/index/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-30T16:42:22+08:00 ] 180.78.60.207 GET lehai.saifer.club/index/Doctor/index?session_id=qv25t17qh0oo325vdjolbn79jq
+[运行时间：0.047493s] [吞吐率：21.06req/s] [内存消耗：3,210.80kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001324s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000595s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Doctor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd8ef515ae2418d12/0/page-frame.html',
+  'x-access-token' => '',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LRA-AL00 Build/HONORLRA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201001 Mobile Safari/537.36 MMWEBID/1523 MicroMessenger/7.0.20.1781(0x270014E5) Process/appbrand0 WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'connection' => 'keep-alive',
+  'host' => 'lehai.saifer.club',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'session_id' => 'qv25t17qh0oo325vdjolbn79jq',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001295s ]
+[ info ] [ RUN ] app\index\controller\Doctor->index[ /www/wwwroot/lehai.saifer.club/test/application/index/controller/Doctor.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-30T16:42:22+08:00 ] 180.78.60.207 GET lehai.saifer.club/index/Doctor/mesList?session_id=qv25t17qh0oo325vdjolbn79jq&offset=0&length=10&type=1
+[运行时间：0.055945s] [吞吐率：17.87req/s] [内存消耗：3,210.20kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001762s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000401s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Doctor',
+    2 => 'mesList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd8ef515ae2418d12/0/page-frame.html',
+  'x-access-token' => '',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LRA-AL00 Build/HONORLRA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201001 Mobile Safari/537.36 MMWEBID/1523 MicroMessenger/7.0.20.1781(0x270014E5) Process/appbrand0 WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'connection' => 'keep-alive',
+  'host' => 'lehai.saifer.club',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'session_id' => 'qv25t17qh0oo325vdjolbn79jq',
+  'offset' => '0',
+  'length' => '10',
+  'type' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002037s ]
+[ info ] [ RUN ] app\index\controller\Doctor->mesList[ /www/wwwroot/lehai.saifer.club/test/application/index/controller/Doctor.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-30T16:42:24+08:00 ] 180.78.60.207 GET lehai.saifer.club/index/Doctor/patientList?session_id=qv25t17qh0oo325vdjolbn79jq&offset=0&length=20000
+[运行时间：0.039028s] [吞吐率：25.62req/s] [内存消耗：3,207.70kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001287s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000253s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Doctor',
+    2 => 'patientList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd8ef515ae2418d12/0/page-frame.html',
+  'x-access-token' => '',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LRA-AL00 Build/HONORLRA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201001 Mobile Safari/537.36 MMWEBID/1523 MicroMessenger/7.0.20.1781(0x270014E5) Process/appbrand0 WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'connection' => 'keep-alive',
+  'host' => 'lehai.saifer.club',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'session_id' => 'qv25t17qh0oo325vdjolbn79jq',
+  'offset' => '0',
+  'length' => '20000',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001367s ]
+[ info ] [ RUN ] app\index\controller\Doctor->patientList[ /www/wwwroot/lehai.saifer.club/test/application/index/controller/Doctor.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-30T16:42:26+08:00 ] 180.78.60.207 GET lehai.saifer.club/index/Doctor/getInfo?session_id=qv25t17qh0oo325vdjolbn79jq
+[运行时间：0.062730s] [吞吐率：15.94req/s] [内存消耗：3,213.27kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000041s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001824s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000411s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Doctor',
+    2 => 'getInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd8ef515ae2418d12/0/page-frame.html',
+  'x-access-token' => '',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LRA-AL00 Build/HONORLRA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201001 Mobile Safari/537.36 MMWEBID/1523 MicroMessenger/7.0.20.1781(0x270014E5) Process/appbrand0 WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'connection' => 'keep-alive',
+  'host' => 'lehai.saifer.club',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'session_id' => 'qv25t17qh0oo325vdjolbn79jq',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002379s ]
+[ info ] [ RUN ] app\index\controller\Doctor->getInfo[ /www/wwwroot/lehai.saifer.club/test/application/index/controller/Doctor.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-30T16:42:33+08:00 ] 180.78.60.207 GET lehai.saifer.club/index/Doctor/index?session_id=qv25t17qh0oo325vdjolbn79jq
+[运行时间：0.046500s] [吞吐率：21.51req/s] [内存消耗：3,210.80kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001208s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000419s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Doctor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd8ef515ae2418d12/0/page-frame.html',
+  'x-access-token' => '',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LRA-AL00 Build/HONORLRA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201001 Mobile Safari/537.36 MMWEBID/1523 MicroMessenger/7.0.20.1781(0x270014E5) Process/appbrand0 WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'connection' => 'keep-alive',
+  'host' => 'lehai.saifer.club',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'session_id' => 'qv25t17qh0oo325vdjolbn79jq',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001336s ]
+[ info ] [ RUN ] app\index\controller\Doctor->index[ /www/wwwroot/lehai.saifer.club/test/application/index/controller/Doctor.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-30T16:42:33+08:00 ] 180.78.60.207 GET lehai.saifer.club/index/Doctor/mesList?session_id=qv25t17qh0oo325vdjolbn79jq&offset=0&length=10&type=1
+[运行时间：0.056776s] [吞吐率：17.61req/s] [内存消耗：3,210.20kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001646s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000379s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Doctor',
+    2 => 'mesList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd8ef515ae2418d12/0/page-frame.html',
+  'x-access-token' => '',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LRA-AL00 Build/HONORLRA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201001 Mobile Safari/537.36 MMWEBID/1523 MicroMessenger/7.0.20.1781(0x270014E5) Process/appbrand0 WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'connection' => 'keep-alive',
+  'host' => 'lehai.saifer.club',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'session_id' => 'qv25t17qh0oo325vdjolbn79jq',
+  'offset' => '0',
+  'length' => '10',
+  'type' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001853s ]
+[ info ] [ RUN ] app\index\controller\Doctor->mesList[ /www/wwwroot/lehai.saifer.club/test/application/index/controller/Doctor.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-30T16:42:35+08:00 ] 180.78.60.207 GET lehai.saifer.club/index/Doctor/getInfo?session_id=qv25t17qh0oo325vdjolbn79jq
+[运行时间：0.042152s] [吞吐率：23.72req/s] [内存消耗：3,213.27kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001308s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000278s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Doctor',
+    2 => 'getInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd8ef515ae2418d12/0/page-frame.html',
+  'x-access-token' => '',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LRA-AL00 Build/HONORLRA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201001 Mobile Safari/537.36 MMWEBID/1523 MicroMessenger/7.0.20.1781(0x270014E5) Process/appbrand0 WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'connection' => 'keep-alive',
+  'host' => 'lehai.saifer.club',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'session_id' => 'qv25t17qh0oo325vdjolbn79jq',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001407s ]
+[ info ] [ RUN ] app\index\controller\Doctor->getInfo[ /www/wwwroot/lehai.saifer.club/test/application/index/controller/Doctor.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-30T16:42:37+08:00 ] 180.78.60.207 GET lehai.saifer.club/index/Doctor/index?session_id=qv25t17qh0oo325vdjolbn79jq
+[运行时间：0.056064s] [吞吐率：17.84req/s] [内存消耗：3,210.80kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001485s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000374s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Doctor',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd8ef515ae2418d12/0/page-frame.html',
+  'x-access-token' => '',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LRA-AL00 Build/HONORLRA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201001 Mobile Safari/537.36 MMWEBID/1523 MicroMessenger/7.0.20.1781(0x270014E5) Process/appbrand0 WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'connection' => 'keep-alive',
+  'host' => 'lehai.saifer.club',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'session_id' => 'qv25t17qh0oo325vdjolbn79jq',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001906s ]
+[ info ] [ RUN ] app\index\controller\Doctor->index[ /www/wwwroot/lehai.saifer.club/test/application/index/controller/Doctor.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-30T16:42:37+08:00 ] 180.78.60.207 GET lehai.saifer.club/index/Doctor/mesList?session_id=qv25t17qh0oo325vdjolbn79jq&offset=0&length=10&type=1
+[运行时间：0.055377s] [吞吐率：18.06req/s] [内存消耗：3,210.20kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001214s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000268s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Doctor',
+    2 => 'mesList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd8ef515ae2418d12/0/page-frame.html',
+  'x-access-token' => '',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LRA-AL00 Build/HONORLRA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201001 Mobile Safari/537.36 MMWEBID/1523 MicroMessenger/7.0.20.1781(0x270014E5) Process/appbrand0 WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'connection' => 'keep-alive',
+  'host' => 'lehai.saifer.club',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'session_id' => 'qv25t17qh0oo325vdjolbn79jq',
+  'offset' => '0',
+  'length' => '10',
+  'type' => '1',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001218s ]
+[ info ] [ RUN ] app\index\controller\Doctor->mesList[ /www/wwwroot/lehai.saifer.club/test/application/index/controller/Doctor.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-30T16:42:38+08:00 ] 180.78.60.207 GET lehai.saifer.club/index/Doctor/patientList?session_id=qv25t17qh0oo325vdjolbn79jq&offset=0&length=20000
+[运行时间：0.044666s] [吞吐率：22.39req/s] [内存消耗：3,207.70kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003408s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000266s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Doctor',
+    2 => 'patientList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd8ef515ae2418d12/0/page-frame.html',
+  'x-access-token' => '',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LRA-AL00 Build/HONORLRA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201001 Mobile Safari/537.36 MMWEBID/1523 MicroMessenger/7.0.20.1781(0x270014E5) Process/appbrand0 WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'connection' => 'keep-alive',
+  'host' => 'lehai.saifer.club',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'session_id' => 'qv25t17qh0oo325vdjolbn79jq',
+  'offset' => '0',
+  'length' => '20000',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001954s ]
+[ info ] [ RUN ] app\index\controller\Doctor->patientList[ /www/wwwroot/lehai.saifer.club/test/application/index/controller/Doctor.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-30T16:42:41+08:00 ] 180.78.60.207 GET lehai.saifer.club/index/Doctor/mesList?session_id=qv25t17qh0oo325vdjolbn79jq&offset=0&length=10&is_look=0
+[运行时间：0.041358s] [吞吐率：24.18req/s] [内存消耗：3,210.30kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001199s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000252s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Doctor',
+    2 => 'mesList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd8ef515ae2418d12/0/page-frame.html',
+  'x-access-token' => '',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; LRA-AL00 Build/HONORLRA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201001 Mobile Safari/537.36 MMWEBID/1523 MicroMessenger/7.0.20.1781(0x270014E5) Process/appbrand0 WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'connection' => 'keep-alive',
+  'host' => 'lehai.saifer.club',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'session_id' => 'qv25t17qh0oo325vdjolbn79jq',
+  'offset' => '0',
+  'length' => '10',
+  'is_look' => '0',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001376s ]
+[ info ] [ RUN ] app\index\controller\Doctor->mesList[ /www/wwwroot/lehai.saifer.club/test/application/index/controller/Doctor.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-30T17:36:50+08:00 ] 222.129.135.174 GET lehai.saifer.club/index/index/getMyDoctor?session_id=9t66ttnp7ia3d8nnjk2cedem1n
+[运行时间：0.040563s] [吞吐率：24.65req/s] [内存消耗：2,440.88kb] [文件加载：117]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001697s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000372s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getMyDoctor',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd8ef515ae2418d12/0/page-frame.html',
+  'x-access-token' => '',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; ELS-AN00 Build/HUAWEIELS-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201001 Mobile Safari/537.36 MMWEBID/9871 MicroMessenger/7.0.20.1781(0x270014E5) Process/appbrand0 WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'connection' => 'keep-alive',
+  'host' => 'lehai.saifer.club',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'session_id' => '9t66ttnp7ia3d8nnjk2cedem1n',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001569s ]
+[ info ] [ RUN ] app\index\controller\index->getMyDoctor[ /www/wwwroot/lehai.saifer.club/test/application/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-30T17:36:55+08:00 ] 222.129.135.174 POST lehai.saifer.club/index/login/Login
+[运行时间：0.243769s] [吞吐率：4.10req/s] [内存消耗：3,688.75kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001787s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000428s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'Login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd8ef515ae2418d12/0/page-frame.html',
+  'x-access-token' => '',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; ELS-AN00 Build/HUAWEIELS-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201001 Mobile Safari/537.36 MMWEBID/9871 MicroMessenger/7.0.20.1781(0x270014E5) Process/appbrand0 WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'content-length' => '659',
+  'connection' => 'keep-alive',
+  'host' => 'lehai.saifer.club',
+)
+[ info ] [ PARAM ] array (
+  'code' => '051Ac0000jGFJK181Z100bz9Hu0Ac00m',
+  'iv' => 'Dv5yVG43qK3gRYaryzk2Ag==',
+  'encryptedData' => 'LN2OTnQ93g/VFlruTKjVWUd4q6F94v82qW5qyEp9uP9gUV6K9z1MagOZRrOxavqsgI6NvB3ZN3VSB+XpjbHG9WbRomVn0UPDgOhboOfTo9Abcv19B4wHIzEchLUsadrw6SmkkU6WV6YTdI0o7IJkhAj+E1jeskhUYqC3pO9VYlwiF+5E9OVlAMictnXnB5KmzYRHyovrqeNMsEO4S9e83pawT+xBmfPiJ5Qg7J9wTGL/iGeOlm8U9+2C88+5ANDiVPUzL4svjktZE/X7Q4SnjE6QyX2BUxIXnDYIqUYGr6fa1lmpEEppmFodO7Bf7hPjtHbqKON63lRgMtAEihhTQu4l+o66L4gaATU2OBF2QsDXK5CK28H+fc1zw6GeQerhdoLEZRDBM75PZL0ixncHCHEW9ABVjAoEnFB7jTwVGfllKZhvdnAk0gGyu+vBBJ4VeodkLgF0ObV5np+0q9pMneFcbuad1G4g6YN8xX69xcU=',
+  'appid' => 'wxd8ef515ae2418d12',
+  'secret' => 'a33520ee2bfdf8dd9831a63a24eb8375',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001969s ]
+[ info ] [ RUN ] app\index\controller\Login->Login[ /www/wwwroot/lehai.saifer.club/test/application/index/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-30T17:36:58+08:00 ] 222.129.135.174 GET lehai.saifer.club/index/index/getMyDoctor?session_id=5p74l322itiljotm7bfo5lihlk
+[运行时间：0.064406s] [吞吐率：15.53req/s] [内存消耗：3,521.85kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000051s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001899s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000489s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getMyDoctor',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'referer' => 'https://servicewechat.com/wxd8ef515ae2418d12/0/page-frame.html',
+  'x-access-token' => '',
+  'accept-encoding' => 'gzip,compress,br,deflate',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 10; ELS-AN00 Build/HUAWEIELS-AN00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.62 XWEB/2693 MMWEBSDK/201001 Mobile Safari/537.36 MMWEBID/9871 MicroMessenger/7.0.20.1781(0x270014E5) Process/appbrand0 WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64',
+  'charset' => 'utf-8',
+  'connection' => 'keep-alive',
+  'host' => 'lehai.saifer.club',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'session_id' => '5p74l322itiljotm7bfo5lihlk',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002150s ]
+[ info ] [ RUN ] app\index\controller\index->getMyDoctor[ /www/wwwroot/lehai.saifer.club/test/application/index/controller/Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File

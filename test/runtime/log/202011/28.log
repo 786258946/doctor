@@ -1,0 +1,462 @@
+---------------------------------------------------------------
+[ 2020-11-28T00:54:57+08:00 ] 58.247.212.239 GET lehai.saifer.club/admin/user/user/choose/id/22/ids/22?dialog%3D1
+[运行时间：0.036070s] [吞吐率：27.72req/s] [内存消耗：2,892.90kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001260s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000286s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.user',
+    2 => 'choose',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'q-sub-business' => 'contentsecurity',
+  'host' => 'lehai.saifer.club',
+  'cookie' => 'ASP.NET_SessionId=leg4l0tha50lcwy3baijgq1r; JSESSIONID=625063982708312DFFA1417DDED2A9B4; fikker-QRA2-wBAT=JnJ0yT3N7tk8arARuOoP3XUHkHKVAfNr; PHPSESSID=qmlpmhc542k5fmrso9jnv3mce1; csrf_wenday_com=ee9838c9975c18c7cc1a6c28beafb739; ci_session=2d38f859ac1be971dc0f46b4944007ed8878d934; DvForum+8%2E3%5Fwww%2Essdvd%2Enet=StatUserID=1021615855; ASPSESSIONIDQARRRSDS=POACEJEAAHHDMMEBBMKELAHL; mid=3rBXXO; IPLOC=CN3100; hmf_search_engine=e30=; ABTEST=8|1606495525|v1; __jsluid_h=1b7d8aaa2dcee8ff6406dc5b37615b05; shop_id=4031303; is_not_first=0; item_list_page8009806=0; IPISP=ISP; NX-ANTI-CSRF-TOKEN=ee5f224b-d9e0-4c82-a5dc-5fbb01f1aa60; ASPSESSIONIDCQDSRBBT=DGHOFIGACFALPACDBMLCLMII; ASPSESSIONIDCQAQTABC=GKNBNGJABPCJJAKEAJNJNINI; Tbx7_2132_saltkey=rNR9a6er; Tbx7_2132_lastvisit=1606492053; Tbx7_2132_sid=OKGB3i; Tbx7_2132_lastact=1606495653%09forum.php%09viewthread; Tbx7_2132_st_p=0%7C1606495653%7C8f0a38ce08eb065f6c61eab56df23403; Tbx7_2132_visitedfid=46; Tbx7_2132_viewid=tid_30469; ecology_JSessionid=aaasNYhOvPVLjfXMbRayx; ASPSESSIONIDAADBRRSR=AHJPPFJAAMJBOFOMMJLOHLMM; ASPSESSIONIDASRCBRRT=CHMFJBJAMJGPDCNDHOAMHOMO; etRj_2132_saltkey=szbd4pNp; etRj_2132_lastvisit=1606492095; etRj_2132_sid=w3G3z5; etRj_2132_lastact=1606495695%09home.php%09space; etRj_2132_viewid=uid_631038; etRj_2132_home_diymode=1; fikker-0QIU-v7tW=2qX9vgf5VQJEdqX5p5KQTWh7tyZ9bGV7; vds=gaLFNHnhIhGHQrGzyZapicyviFnCmWnpyHPpbHbcmWtqPXtvGcQCGMapnkNr; ASPSESSIONIDSQRTAQSR=NEPBMEJAIJHKDHHKLHEBCAEF; security_session_verify=924c77cb8e2866924ea99e1bc3f2575f; cf_ob_info=520:5f8d57b45f414f7e:WUH; cf_use_ob=0; tgw_l7_route=c3ec988161d04b213fe0840a6e4d2871; BIGipServerpool_m.med66.com=385956618.20480.0000; ASPSESSIONIDAABDACAT=PKDDPINDMEDPBKOECNLBMHIB; id=14166; InitSiteID=80052; SiteType=1; IsDefaultLang=1; WUserID=15936819880693; Lang=cn; yz_site=isSite; ASPSESSIONIDAQDSADCC=CAMBBOIALHMMDPIDHDPBEDEI; XLjG_2132_saltkey=IlP3110q; XLjG_2132_lastvisit=1606492336; XLjG_2132_sid=Tkb40I; XLjG_2132_lastact=1606495936%09forum.php%09viewthread; XLjG_2132_st_p=0%7C1606495936%7C44ad7c0b2e62b353bc70373212251973; XLjG_2132_visitedfid=99; XLjG_2132_viewid=tid_215998; __RequestVerificationToken=h_8SbIrtdErm56ZHiN7ldBGEABWBAcLnE1UA4sDrpT-jsJ5xzKvKEl9sVJlMq01gSZnQGroSYgmQAs7E3m2VLxHDR_dDYZMZK7_vMIAv2m81; ASPSESSIONIDSCSTACQA=NBLOCJEAKPKAAPDPFJFCHJHN; bgt=20201128005301; JCN_SESS_ID=9d6bc008-29e9-45da-8c05-edfaa964d33f; firstVisitor=1; _d_id=ff2ee440a71abdd78009735f44f3f1; is_mobile=0; _csrf-frontend=6f62aa20dbcc1088b290076b1b47a1ce08200a78c14acc9ba9740f8f33786dd4a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22eICwPBco6p8OEK7vvVjwXGNZy0tAvM7Z%22%3B%7D; lj_newh_session=eyJpdiI6Ill2MDMzN0lLWm9GSUxWUzgydEdjRlE9PSIsInZhbHVlIjoiNUZvMTNaTURRTnhVclIyQUM1UFwvTW4rMVpzeWtmdnNnU1dKWko4WHdvQVZKMWhQVFY3dmQ3ckxxVlBnWXFwXC90ZjFWdlVLVzhveThYOGlyYkhIQlg1UT09IiwibWFjIjoiOTRjODA1ZmNkMjQyZmI0ZGUzNmQ3ZDNkOWQ1OWY5NDhkMDg0NTFhZjFmY2Y5NzkxNTMxN2FhNDFmZGJmMWViMSJ9; ASPSESSIONIDQACSSRSS=JMIBEGNDANOCEJOJFPOAHDNI; ASPSESSIONIDQSRRDSQQ=EAMGHFJANDLHLMMNIKGLLGNE; rZ6J_2132_saltkey=FuUK75Uv; rZ6J_2132_lastvisit=1606492485; rZ6J_2132_sid=Lic440',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'dialog=1' => '',
+  'id' => '22',
+  'ids' => '22',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001241s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ VIEW ] /www/wwwroot/lehai.saifer.club/test/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000173s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-28T01:28:05+08:00 ] 183.192.179.16 GET lehai.saifer.club/admin/index/index
+[运行时间：0.038820s] [吞吐率：25.76req/s] [内存消耗：2,928.23kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001291s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000292s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'q-sub-business' => 'contentsecurity',
+  'host' => 'lehai.saifer.club',
+  'cookie' => '_csrf-frontend=110684cd4ad22703616327c5c1f68f89a6dfb7f76bfbb7485fd8dd11928bcad7a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22ugVfvXBKz5LgefEC4n0JD2BMgaDLw78u%22%3B%7D; __jsluid_h=7d2d041640309d02b1ae252cb2903928; .ASPXANONYMOUS=5aWpAHD71gEkAAAAZWFmZGMwMGItNTkyMS00OTQ1LWJjM2QtNzk0MDQxMTc1NTBhW50ZbG8Z5EPRuvBxnboK7O84LuaELWyPMSBO0J8wF8E1; ASP.NET_SessionId=eo10eqspnfhyp1vqrqukaiag; BIGipServerpool_m.med66.com=385956618.20480.0000; ASPSESSIONIDAQSDSARA=BIIBMCJAEBILFFPCAIPEFBAP; _d_id=2f0293cd907d425b0d09735f44f321; JSESSIONID=85573D41CBD31B3EE96C7E8FAE3B51C3; X_CACHE_KEY=e9c45248ab8626d55720e6b1bf20281a; PHPSESSID=p89gf2c5bdaqad7qqompt2j2b1; security_session_verify=d4b204ec67fbed67c771d3ef04b37b36; vds=gaTLBIdolQuEdLLoeyNtLaIydNToeIlasPbITyTtdaxonmmEuPNbwGGIBLBm; PlatVisitCount=YVVES29BSzdjY3JjT2g2NjJ5RGVsemtiNFRwVkNMbEx5L2w2NHRCK2M1ND0=; bccms.session.id=246f8c7c0bf94f178ff6edcf06dd0852; curdate=20201128; cof_city=102%7Chttp%3A%2F%2Fhz.fangsk.net%2F; BT_PANEL_6=b26f82b4-3fc2-4fd8-8e08-8e9522db2143.xmZw2rX4N4PN4fi6qkr6PBx-d-k; ZDEDebuggerPresent="php,phtml,php3"; wordpress_test_cookie=WP+Cookie+check; mid=acFtjr; acw_tc=784c10e616064964242778013e98a5719c1cbb528204834013e160023171b0; IPLOC=CN3100; fikker-QRA2-wBAT=JnJ0yT3N7tk8arARuOoP3XUHkHKVAfNr; BJYSESSION=3jumdcr4smtncsc1qgbhcsfhu5; bgt=20201128010150; JCN_SESS_ID=75174912-8cc6-4896-9016-bd255d9963e2; page_type=1; firstVisitor=1; cityInfo=think%3A%7B%22id%22%3A0%2C%22name%22%3A%22%25E5%2585%25A8%25E9%2583%25A8%22%2C%22domain%22%3A%22%22%7D; InitSiteID=6478649; SiteType=0; IsDefaultLang=1; WUserID=14900584595721; Lang=cn; yz_site=isSite; app_cook=server1; UUID=12ba792ba8d774b5ade2809052206951; hmf_search_engine=e30=; CurrCityCode=00863702; CurrCityName=%e9%9d%92%e5%b2%9b; substation_host=qd.belltrip.cn; LocalCity=%e4%b8%8a%e6%b5%b7; LocalCityCode=00863101; LocalCityHref=sh.belltrip.cn; user_locale=; oschina_new_user=false; ECS_ID=929ab64d9c4c23a4a4c11ed3221719edec799f4d; XSRF-TOKEN=eyJpdiI6IkprV3JTVXhpSVpiQ3F5SUZweEdNdEE9PSIsInZhbHVlIjoiSUhPT0tWSERkcnhjS2hwL1RwYlZGUnYvWldNV3BqMGdKU003dnRaUXFKeXZsNDRzeHdmQnNsYXYvbHUvVGRqdDRYTFM3dHJnTFlqS21CbHkyL0d6Q0VmN3VLMktOcndBb21mNHRiVkwrQjJEYUUvRHhvVXdoOGIrd0VvZXlzOXMiLCJtYWMiOiI3MGI1NmU0OTc5MDE3YzY5ZGIwNjBjYTkyOTQxZjMzNTQ2MzcyODFlY2FiZTI0MGUxZDdlMTI4YTc4ZmY5Y2Q2In0%3D; 86ps_session=eyJpdiI6Ikd3Y2NUS1ByTjZ4UkdhcWVPd1wvNWtBPT0iLCJ2YWx1ZSI6IlJIMk1aa3RwQU10bjRRRXQ0MXRXajQ4S1BmRjhFRkVjb2JnOE9ldGVPb3hGXC9YZFFZSlwvMGcxN3JXV3R2c3dRayIsIm1hYyI6IjI4NTZiOGQ0MGUyZDdhYjRmZmY0YWQxNWYyZjFkMGU1Y2ExMjYyN2YzMGUyOTA1NjNhNDA1ZmY4NmMzMTQ2NTgifQ%3D%3D; shop_id=8001290; is_not_first=0; ntebaojie_session=eyJpdiI6InZhdndHbGhoQUx4ZEk2alVubmFuZHc9PSIsInZhbHVlIjoid3NMSmNBZWJERVQ0UTd4aEZFMUFjQ1VBU3d6a3I5ZUE5MEVxcjJVVE1Id1lldXprNjRmWHpEb1NYcEkrVnV4UiIsIm1hYyI6IjgwNzFjMGI4MmY4ZWIzMWI1MzZkYWZiOWZkYWM4M2FlNGFkYjhkYzE3MTc3OGY4MjBiMTNmZWUxNDIyNTU3NDEifQ%3D%3D; discuz_2132_saltkey=yFHMS8cc; discuz_2132_lastvisit=1606493192; discuz_2132_sid=MHeDfX; discuz_2132_lastact=1606496792%09forum.php%09forumdisplay; discuz_2132_pc_size_c=0; discuz_2132_st_t=0%7C1606496792%7Cf4cef9c5a9ba37bc8f9adbcb118711e9; discuz_2132_forum_lastvisit=D_11_1606496792; discuz_2132_visitedfid=11; did=9; fz_type=1; cityid=60; cityname=%E5%8E%A6%E9%97%A8; sy_webname=%E5%8E%A6%E9%97%A8%E7%AB%99; sy_webtitle=%E5%8E%A6%E9%97%A8%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%85%BC%E8%81%8C%E7%BD%91; style=demo12; sy_weburl=http%3A%2F%2Fxm.dxsjz.com; sy_wapurl=http%3A%2F%2Fxm.dxsjz.com; User-Realip=183.192.179.16; cf_ob_info=520:5f8d8e4ba856eab7:LAX; cf_use_ob=0; frontCityCode=pingxiang; fikker-0QIU-v7tW=2qX9vgf5VQJEdqX5p5KQTWh7tyZ9bGV7; hKLV_2132_saltkey=vC2cFkJA; hKLV_2132_lastvisit=1606493422; hKLV_2132_sid=iMzvnt; hKLV_2132_lastact=1606497022%09forum.php%09viewthread; hKLV_2132_st_p=0%7C1606497022%7C21b1937b44986b5ec74597f0a87d6307; hKLV_2132_visitedfid=46; hKLV_2132_viewid=tid_43694; Yk2O_2132_saltkey=tT5fZbyV; Yk2O_2132_lastvisit=1606493438; Yk2O_2132_sid=d5zIwa; Yk2O_2132_lastact=1606497038%09index.php%09; _dbsg=ij7t5mdfksda8fksdafka19b04cef36a; Qyfg_2132_saltkey=x03qaX0t; Qyfg_2132_lastvisit=1606493462; Qyfg_2132_sid=P88nz8; Qyfg_2132_lastact=1606497062%09forum.php%09viewthread; Qyfg_2132_st_p=0%7C1606497062%7Ce3976d3209cbcc5903e276e23c8de87b; Qyfg_2132_visitedfid=123; Qyfg_2132_viewid=tid_14786; hnyHkdu5_2132_lastvisit=1606493481; hnyHkdu5_2132_sessionid=1224875669; laravel_session=eyJpdiI6IkV6Ukt2VHplOVZvRElwaTM0T05PdkE9PSIsInZhbHVlIjoicWdkV09RcU0xRzAwMzJKYkVwdFpTWUgrRXU0bUNMdWNNcFpubXE4TStIaGZXV2lCQWhCQS9td0FmYWZseWQzWVVxMktrdlg3aTJ6U2VieHN3UkVzcU05QUYzeWJIU0grL3dudWhRcEN5cmx2MHk4ZEwrMmFFejlIQnhONWlpTDUiLCJtYWMiOiJlN2NhNTQ5ZWZhMmJiZTEyZjNjODQ2ODFkYmYxNjIzYjljZGIxMThjOThkMDQ2OTBkZTlmZDE5YzBiYTcwYTE1In0%3D; oWTg_2132_saltkey=GjIsK75P; oWTg_2132_lastvisit=1606493629; oWTg_2132_sid=hljNuf; oWTg_2132_lastact=1606497229%09forum.php%09forumdisplay; IPISP=ISP; language=%E4%B8%AD%E6%96%87; xmplp_session=eyJpdiI6IlJvVnVvSFR4ZDc2bFBlRjVBXC9qVEx3PT0iLCJ2YWx1ZSI6IlBkOGV4SDU1dkxpS1dmcXdlUlpyclVyZnV2djhIT0s2QXRrM1BOcGQxdURLclpqak1CTWJmVm1SSlFTWGV6ZkNGS3h2K3IwVStWMnlIdXJJVURnKzBnPT0iLCJtYWMiOiJkNGNjNjAxNzQwMTA3YzNjMjI3MmU1M2I2YzE1OTZjZmVhY2NlZTY4MzQ4YjMwMDZjMzIzZjBmNTY5NjgyYzgzIn0%3D; cart_goods_num=0; ASPSESSIONIDAAACSRTQ=MOMLCJJAPNCCDLMEBNLCOEHI; 95hf_2132_saltkey=SzLhdufl; 95hf_2132_lastvisit=1606493787; 95hf_2132_sid=sTt6gE; 95hf_2132_lastact=1606497387%09forum.php%09viewthread; 95hf_2132_st_p=0%7C1606497387%7C60d26d75da62356640219e1289c3772d; 95hf_2132_visitedfid=36; 95hf_2132_viewid=tid_34623; ASPSESSIONIDSAARQCDB=OELFOCJABKFCHJMLGIIELGBD; kuaiyou_siteid=b4bdi9ReKGhuJy6CCj-UF53W-bsm6FddOXtjJB2y; visits=1; php-webapp-kaobo=ccce0013640a9a4b87d53fe1380295b4; cp_language=zh; XJdU_2132_saltkey=qNsVNSk2; XJdU_2132_lastvisit=1606493894; XJdU_2132_lastact=1606497494%09forum.php%09viewthread; XJdU_2132_pc_size_c=0; CdbP_2132_saltkey=iP3NYYNp; CdbP_2132_lastvisit=1606493909; CdbP_2132_sid=gVhY7h; CdbP_2132_lastact=1606497509%09forum.php%09viewthread; CdbP_2132_st_p=0%7C1606497509%7Cb4866c84b596445fd6046fba15194435; CdbP_2132_visitedfid=47; CdbP_2132_viewid=tid_6503; PvKl_2132_saltkey=XdoHjLo9; PvKl_2132_lastvisit=1606493915; PvKl_2132_sid=R6i2md; PvKl_2132_lastact=1606497515%09home.php%09; PvKl_2132_home_readfeed=1606497515; nouid=5fc135bf97a121892; pvStime=D807D1FAABEC9F44535A; pvTimes=D8; fxpartner_uv=1; waf_cookie=973734a0-7c4f-4aa0cccc9d1e7a3246122afa9ca3330c260a; __cdnuid_h=40e7c1e6673355cfe17beba92f376e0c; egwP_2132_saltkey=R78aD804; egwP_2132_lastvisit=1606494399; egwP_2132_lastact=1606497999%09forum.php%09viewthread; is_first_tc=isfirst; egwP_2132_visitedfid=157; egwP_2132_viewid=tid_18319348; YUeP_2132_saltkey=rMQMggjk; YUeP_2132_lastvisit=1606494409; YUeP_2132_sid=fwBb88; YUeP_2132_lastact=1606498009%09forum.php%09viewthread; YUeP_2132_st_p=0%7C1606498009%7Cf81f5efcd8a7fc09ad4f781c9448391a; YUeP_2132_visitedfid=2119; YUeP_2132_viewid=tid_101007; tgw_l7_route=20d5094fef4206ec3774c06c4096fda3; hdmPlayNum=video_comic_id_52928; hdmHistory=52928; vanlian_session=YzETtE5y4LPUijebye8DdXs340NXfgEGiXo1xtEx; ASPSESSIONIDAABBSRQQ=JHBGCKJABFADNILMJCJOACPN',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001417s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ VIEW ] /www/wwwroot/lehai.saifer.club/test/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000212s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-28T02:16:45+08:00 ] 218.5.79.38 GET lehai.saifer.club/
+[运行时间：0.028174s] [吞吐率：35.49req/s] [内存消耗：2,059.47kb] [文件加载：110]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001580s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000281s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-28T02:46:01+08:00 ] 101.89.19.140 GET lehai.saifer.club/admin/general/profile?addtabs%3D1
+[运行时间：0.110880s] [吞吐率：9.02req/s] [内存消耗：2,958.66kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015170s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001704s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'general.profile',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'q-sub-business' => 'contentsecurity',
+  'host' => 'lehai.saifer.club',
+  'cookie' => 'PHPSESSID=ji9obk3plggif2qid258vbmr9f; lastfid=0; lastvisit=0%091606496827%09%2Fsimple%2Findex.php%3Ft310192.html%26; ol_offset=9506; qrcodeKey=NTY0NmY2MzYyNzE3NTdjNjU3NzYxNjAzMzM4MzYzOTM0MzYzMDM2MzEzMTY4MzczOTM%3D; _d_id=2fbda440a71abdb06709735f44f321; ASP.NET_SessionId=v3kb0mck3k1ka0w2sjpnhwjc; vds=gaxJlWLvmrnzGhyJIzGXmFyqEMmZyYlYsYxzspGhGMEhsCxzmWlWOHnFsFIH; security_session_verify=35d1c77c13f45eddf248d0c6b8df09ac; TZFL_2132_saltkey=Wx72qp52; TZFL_2132_lastvisit=1606493360; TZFL_2132_sid=Pa0RW8; TZFL_2132_lastact=1606496960%09forum.php%09viewthread; TZFL_2132_st_p=0%7C1606496960%7C0aaaa6a290a400446e7261c44e307834; TZFL_2132_visitedfid=133; TZFL_2132_viewid=tid_7688; JSESSIONID=BA558D6BA22DEA9778F6B58AAF9F3A60; IPLOC=CN3100; fikker-0QIU-v7tW=2qX9vgf5VQJEdqX5p5KQTWh7tyZ9bGV7; __jsluid_h=6e6353833fa0bbdeea0c84b92823390d; cp_language=zh; SESSION=09b751f4-7b8c-434b-9354-dd3f078f5e83; ipSfw4_token=aa85acc6334710e8; SESSIONID=71ee5b21-b77a-499f-9eff-c8b07afb6d60.Si3cUVdn4slVJDO1zdlVpIMBNlU; ECS_ID=34587487ae6ac47e5c177b3f82c67e9a0505ca38; user_sid=b8a5cc82ff; AUSHOP_sid=157f792a31d7ffb0bee2921527afacca; FjiO_2132_saltkey=rnM69Pfg; FjiO_2132_lastvisit=1606493470; FjiO_2132_sid=vq1dJ8; FjiO_2132_lastact=1606497070%09forum.php%09viewthread; FjiO_2132_pc_size_c=0; FjiO_2132_st_p=0%7C1606497070%7C2414582eaeab33cc49d036cbb9916594; FjiO_2132_visitedfid=85; FjiO_2132_viewid=tid_81788; X_CACHE_KEY=788a341f572731833d50a4cdda8eaac7; system=PW; caf_ipaddr=101.89.19.140; country=CN; city=; traffic_target=reseller; fikker-QRA2-wBAT=JnJ0yT3N7tk8arARuOoP3XUHkHKVAfNr; lf___forward__=http%3A%2F%2Fmennandemimi.com%2Fall%2Fid%2F40.html; ASPSESSIONIDQQATTTDR=OHJGPCCAOJEJHOMDELILDJIB; BIGipServerfor68_java_pool=2801849098.20480.0000; XSRF-TOKEN=eyJpdiI6ImZxdGtyV3BEK0ZVZ25tRmR6amNuZVE9PSIsInZhbHVlIjoieUUrY3JGQ1VSUTRxT05nMm8xR0RiaitTZHd1alNaQ242ZmVRcWFlQ2hqUWZtaFwvbTFxWGplSXR3K2RLZ1lERlUiLCJtYWMiOiJlMjRkNDExZmRmN2EyZDdhOTcwZDhjZTlkN2NlNjEwZTk5NmRiYzI5Mzk1NmM1YWRiMzQxODJkOTcwMjQ2MzdiIn0%3D; xinshouyouv2_session=eyJpdiI6InpTbWhPcE1kamJUbURmK0d3SnVCdWc9PSIsInZhbHVlIjoidmRqS0dVTHRSQW5sdEkzNTZQM1dvaFppOEJIZHduUWIyZGxoUm13RzI5VDd0UDh3UWVScUNIT2JIWjBNdzJPNCIsIm1hYyI6IjU4MTBjN2E1MWMxN2ZhNzI1ZWFlYWU4ZTNhMjQzNjc0ZGE3YWRhM2I2NmVmZWY1OGFmNWQxZWRhODZlZjNiODQifQ%3D%3D; IPISP=ISP; seed_VmallLastUrl=czo3NjoiaHR0cDovL2Nhc2guYmVuZWZpdC5obmFncm91cC5jb20vcHJvZHVjdHMvY2hlYXByYXRlLTc0Ni0yMjg3MS0xLTAtMC0wLTEuaHRtbCI7; SESSION_COOKIE=B; cof_city=30%7Chttp%3A%2F%2Ffs.fangsk.net%2F; Z17RV_session_uniq=NTQyYWZmYzg4MDUwMzYyMzBmNDAwZTVhOTRjNjE4YmYJMzIzNzI5MTYy; BIGipServerpool_m.med66.com=704723722.20480.0000; sitepath=%2F; liketrue=1; bgt=20201128011808; JCN_SESS_ID=661cedc2-5b97-4839-a6a8-29271a29aa17; page_type=1; firstVisitor=1; ASPSESSIONIDQCCTSSTA=LGAOGIAAEANILIBFDMMOCAEP; ASPSESSIONIDAACCQSRQ=PHHHFKJACEDDMGBHHNMKMKCD; ASPSESSIONIDSQTRBQQT=NNMDHJJAPEKEDIPPCLHEAAMN; mid=obJMKl; yunsuo_session_verify=ebb7beafc26bbf69ba0146c617736f93; d2d977c58444271d9c780187e93f80e5=think%3A%7B%22verify_code%22%3A%226d7c5efcb311f691bc188505a2168512%22%2C%22verify_time%22%3A%221606497544%22%7D; TcY_sid=N79O9c; sid=s%3AL-FoDw24g6-ZjvJYHUGM95XVpCq93gWc.HnqiMrvXXuJ5XuM8f4DsovfS1Ms5IyCjlcHIDOz6CGE; InitSiteID=76278; SiteType=1; IsDefaultLang=1; WUserID=15507312332839; Lang=cn; VgpA_2132_saltkey=xPi01CJf; VgpA_2132_lastvisit=1606494034; VgpA_2132_lastact=1606497634%09forum.php%09viewthread; ASPSESSIONIDSSABASQA=BBNIAECANEMKLGDAPOJOBKGP; pxeI_2132_saltkey=CQ6Yld11; pxeI_2132_lastvisit=1606494068; pxeI_2132_sid=MAABjT; pxeI_2132_lastact=1606497668%09forum.php%09viewthread; shop_id=8009806; ASPSESSIONIDQACSSRSS=MCEMEGNDGELMMEKGCAKGGNHH; w__akari=2b4dda4e7; w_trail=631%3D29023%7CA; cityInfo=think%3A%7B%22id%22%3A%2266%22%2C%22name%22%3A%22%25E6%2583%25A0%25E5%25B7%259E%22%2C%22lng%22%3A%22114.4235580165817%22%2C%22lat%22%3A%2223.116358854725593%22%2C%22domain%22%3A%22www%22%2C%22seo_title%22%3A%22%25E6%2583%25A0%25E5%25B7%259E%25E6%2588%25BF%25E4%25BA%25A7_%25E6%2583%25A0%25E5%25B7%259E%25E5%25A4%25A7%25E4%25BA%259A%25E6%25B9%25BE%25E6%25A5%25BC%25E7%259B%2598%25E7%25B2%25BE%25E9%2580%2589%25E5%25B9%25B3%25E5%258F%25B0%25E4%25B9%25B0%25E5%25A5%25BD%25E6%2588%25BF%25E4%25B8%258A%25E6%2596%25B0%25E6%2588%25BF%25E5%25AE%259D%22%2C%22seo_keys%22%3A%22%25E6%2583%25A0%25E5%25B7%259E%25E6%2588%25BF%25E4%25BA%25A7%252C%25E6%2583%25A0%25E5%25B7%259E%25E6%25A5%25BC%25E7%259B%2598%252C%25E6%2583%25A0%25E5%25B7%259E%25E6%2588%25BF%25E4%25BB%25B7%252C%25E5%25A4%25A7%25E4%25BA%259A%25E6%25B9%25BE%25E6%25A5%25BC%25E7%259B%2598%252C%25E5%25A4%25A7%25E4%25BA%259A%25E6%25B9%25BE%25E6%2588%25BF%25E4%25BB%25B7%252C%25E5%25A4%25A7%25E4%25BA%259A%25E6%25B9%25BE%25E6%2588%25BF%25E4%25BA%25A7%22%2C%22seo_desc%22%3A%22%25E6%2596%25B0%25E6%2588%25BF%25E5%25AE%259D%25E6%2588%25BF%25E4%25BA%25A7%25E7%25BD%2591%25E6%2598%25AF%25E6%2583%25A0%25E5%25B7%259E%25E5%25A4%25A7%25E4%25BA%259A%25E6%25B9%25BE%25E4%25B9%25B0%25E6%2588%25BF%25E7%25B2%25BE%25E9%2580%2589%25E5%25B9%25B3%25E5%258F%25B0%252C%25E6%25A5%25BC%25E7%259B%2598%25E6%2588%25BF%25E6%25BA%2590%25E5%2585%25A8%25E9%259D%25A2%25E3%2580%2581%25E6%2588%25BF%25E4%25BB%25B7%25E7%259C%259F%25E5%25AE%259E%25E5%258F%25AF%25E9%259D%25A0%252C%25E4%25B8%25BA%25E6%2582%25A8%25E6%258F%2590%25E4%25BE%259B%25E6%2583%25A0%25E5%25B7%259E%25E6%2588%25BF%25E4%25BA%25A7%25E3%2580%2581%25E6%2583%25A0%25E5%25B7%259E%25E6%25A5%25BC%25E7%259B%2598%25E3%2580%2581%25E6%2583%25A0%25E5%25B7%259E%25E6%2588%25BF%25E4%25BB%25B7%25E8%25B5%25B0%25E5%258A%25BF%25E4%25BB%25A5%25E5%258F%258A%25E4%25B8%2593%25E4%25B8%259A%25E7%259A%2584%25E6%2583%25A0%25E5%25B7%259E%25E5%25A4%25A7%25E4%25BA%259A%25E6%25B9%25BE%25E6%2588%25BF%25E5%259C%25B0%25E4%25BA%25A7%25E4%25BF%25A1%25E6%2581%25AF%25E5%2588%2586%25E6%259E%2590%25E7%25AD%2589%25E6%259C%2580%25E6%2596%25B0%25E6%25A5%25BC%25E7%259B%2598%25E8%25B5%2584%25E8%25AE%25AF%25E3%2580%2582%22%7D; ASPSESSIONIDSQCTQCCQ=EMELPLAACNLPDAKIBHKMBPCB; advanced-backend=h10cjbe8sohg5n8cl6jtblnu81; _csrf-backend=bad4ee8d014850408d5e270e87b473232792f9c91cbce547b16ce6147ad58c13a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22BzR_SX5-0wvmLAmXBssZ8BOSaM2ugDiG%22%3B%7D; BIGipServerfl_java_pool=1644221194.20480.0000; beegosessionID=e66601b2605ee639492d362353739794; .ASPXANONYMOUS=uLB9VHT71gEkAAAAOWVmMDNhMmUtMzlhYi00OWE1LTgzNWItZjJmNWFiOWZmODEyeo_SKxOGOtKbN6pFUCTvGPMU8MV1X-hP3exJWmBtY341; cf_ob_info=520:5f8df5192cac3ae0:SJC; cf_use_ob=0; lF3z_2132_saltkey=WWL97W89; lF3z_2132_lastvisit=1606494505; lF3z_2132_sid=UtiWI8; lF3z_2132_lastact=1606498105%09forum.php%09viewthread; lF3z_2132_visitedfid=49; cjv_lastvisit=ae8f6HgBHpbOXdH96iY3UR10znlep5IsAdkX-S-De9QCwOlZScN0RQqTSw; USR=dibeybzu%090%091606498119%09http%3A%2F%2Fwww.3djulebu.com%2Fbencandy-39-85961-1.htm; ZDEDebuggerPresent="php,phtml,php3"; fcity=cc; plat_channel=xc_pc; uloginid=90732086; language=cn; currency=USD; view_log=%5B%2240897%22%5D; kouclo_session=a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%226023ac2005d9d413ffb56bdbfe60b68d%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A14%3A%2258.247.212.239%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A72%3A%22Mozilla%2F5.0+%28Windows+NT+6.1%3B+WOW64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1606498405%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3B%7D56af128b6f6fd48acb10fe74497311ad; lang=en-US; i_like_gogits=00897d78f2321811; _csrf=7cc66926e719be2db2a3fb748b22c862b534c71ad501b0f41c4d62511d761643a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22g_NQBg6-PKptdpVaefv2vPrJKq2kZCTn%22%3B%7D; is_not_first=0; item_list_page8009806=0; bYaN_2132_saltkey=x7KRx7f9; bYaN_2132_lastvisit=1606494831; bYaN_2132_sid=he9971; bYaN_2132_lastact=1606498431%09home.php%09; bYaN_2132_home_readfeed=1606498431; ASPSESSIONIDAAQACDDT=FBEFABJAKDMADCJPGKPKHMCH; LFhr_2132_saltkey=Euwe2U0u; LFhr_2132_lastvisit=1606494842; LFhr_2132_sid=Zd244J; LFhr_2132_lastact=1606498442%09misc.php%09; F969_cart_goods_num=0; ASPSESSIONIDSQDASBTA=NPIBJLJADDDHBDJFPDOKDDLC; laravel_session=eyJpdiI6Ik9lTHNsK01LdWQzU2RYU01KaGpkb1E9PSIsInZhbHVlIjoiR0tCczF4TzV1WTFzcGZCRWdcL1ViSjdcL01HZDJjbnh4bmtlS1JBMUZHTEd4U2VZXC9CNytvc1J1YVNRcFZpZVppb1JJSkpEdlM1Y0x3dzVLaXBuaFpWVmlkTTNLb3daYnJscDlJc0JMTXlGZUJtTUdXanlrVGFmQjNQZTljSkJCZVoiLCJtYWMiOiIwNGFmOTQ0MjY3NDg2OWYyODlkYTU1N2E3MWQ0MDZlOWExYjQzMDc2NWMxZmVhNWQzMzJlZmNlNTBkN2M0OWZjIn0%3D; hnyHkdu5_2132_lastvisit=1606494979; hnyHkdu5_2132_sessionid=1443861186; xmplp_session=eyJpdiI6IjlwVTg4THo1a3RnRlhhUndRS2hIU2c9PSIsInZhbHVlIjoiVmNtcWk4ZFlJajVhM3NZWEN5bmtIZndoNVlSXC9OMHVuR0tvRHFrbktwN2hFckp3VkRFSU5Hck1yekJFc0ZOQVwvV09lN0xxNmRJdXFGREZxOVJWMGd4QT09IiwibWFjIjoiMmRhZmEyYzViMjFjNjA4ZGRiYjdmZTNiM2VmOWZkYjRhMzc0OGUyMzczN2ZiMTRhNmM2NTgwYThiMDJhMDVmYSJ9; ci_session=a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22b540bf51fa931d521a02127e663a804c%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A13%3A%22101.89.19.140%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A72%3A%22Mozilla%2F5.0+%28Windows+NT+6.1%3B+WOW64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1606502503%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3B%7Dece4865448e82d4b1223548cd5406aa72c6ba19e; ustk=20201128_989320431_337255109; backurl=http%3A%2F%2Fppt.janvedevil.top%2Fdownload_20009707.html; ASPSESSIONIDCSCQRAAS=PIALLCAAMFELPEKCAODODHIC; ASPSESSIONIDCABASTQQ=AKPHMLJAHOFLDGBGEOOHEJJM; cwu_city=134%7Chttp%3A%2F%2Fhuaibei.wanqiwang.com%2F; TimeOut="2020-11-28 01:47:07"; gt4z_2132_saltkey=MAtd4t3T; gt4z_2132_lastvisit=1606495673; gt4z_2132_sid=irP7Om; gt4z_2132_lastact=1606499273%09forum.php%09viewthread; gt4z_2132_st_p=0%7C1606499273%7Cfba17d7e969fcd18ffc173385c18d6f0; gt4z_2132_visitedfid=92; gt4z_2132_viewid=tid_161; ASPSESSIONIDCASQATBS=JGBPIICAEFOAICKADPGBENCD; think_template=default; 2EB0_cart_goods_num=0; ecology_JSessionid=aaagmPff0_98W7tALnMxx; zzzs888_session=eyJpdiI6InNDNmE2UVd2XC9kVU1oRVFjcGRpd1hnPT0iLCJ2YWx1ZSI6IkJGRGFGc1hvZG0wQmdncjFzZkQ4cEUrSkFkbGpYeVI0aFBcLzJ2WEdUaFVrUnJWUWNZeXhJVjBIbDR3N3dTR2hvIiwibWFjIjoiM2YyMmY1MjBlZmM5MTRjOTQ4YjNiNjRlYTkxZTQxNjNmNTE2NGZkYjY4NWEzN2ZlOGNhNzY1M2IwOTk2ZWJiYSJ9; e91e18d7924235ceee1a5dbf7653820f=37aa9ee72ab4f51a3df63d8277f481f165dcecd936e65c330c1173ea05931efda%3A2%3A%7Bi%3A0%3Bs%3A32%3A%22e91e18d7924235ceee1a5dbf7653820f%22%3Bi%3A1%3Bs%3A236%3A%22z9WZMluhL4iaR0oAdeE2IjdjZWU3YzUxMTY2NWIzMWExY2E3ZDlhZmJhZmY4NjE1ZDUyODJhZDMwOGQyNjkwMWE1NjgyNDRkYTFjZGVkNmP6WN18wlu4lhqHafr05W9dRDeEOmK8RO4dsZfm%2FpWWja%2B1%2Bbfc23%2Ba2DP3rSDk2hMX46MLyRLiHETJYJvR4xX8EWeCgyza5RGfjupMtFsUIU%2B%2B5ksPRO%2FjxBS%2BOrY%2B4%2Fg%3D%22%3B%7D; ASPSESSIONIDCACCTQTR=OBDLNNJABHGMDDOGOOBPCLBE; ASPSESSIONIDQSRSDTTQ=GMHPHMJABOGCGEOFCJPLANFP; ASPSESSIONIDCSCCRRTT=KBFHIIJAOGNPCIKLFMIHFNOI; v_lzpan_session=eyJpdiI6InFrK0NnQkdMRVZVeGZZTFJRYWNBcXc9PSIsInZhbHVlIjoiRFRmUWw0Mk91UEJPV1kwUVU3MUlkZUZ5RW9zWmt2NUdBTUlXT0VyODRqVUIzRVIrQzhmZXlBNXpNYlQxMnZLTSIsIm1hYyI6IjM3NjY3YzcyN2ExMTlkMWIyYjVmMWM2MTA1MWUwYTlhMzYyZWUyOTBlZTc4ZmVjNDEyYzYxMDJmNzg4NjQ5MTMifQ%3D%3D; ASPSESSIONIDAAQAQSAC=ODLLIPEAOPGLGDMCJOGEJGCJ; ASPSESSIONIDAQASRBAT=FIJOPMHADIMFAGLEBGGLBKNF; Zwj_sid=2FJ29P; ls-popup-last-displayed=1606499762; ls-popup-6=1606499762; cache_check=1; ASPSESSIONIDQQSRDSRR=NGCODOJAALCJLLPAKBNPACFE; fDLT_2132_saltkey=Zy7e3z8E; fDLT_2132_lastvisit=1606496408; fDLT_2132_sid=jXrNDR; fDLT_2132_lastact=1606500008%09forum.php%09viewthread; fDLT_2132_pc_size_c=0; fDLT_2132_st_p=0%7C1606500008%7C8997d5c57ce9c487e52da63ee9858d03; real_ipd=101.89.19.140; ASPSESSIONIDCQDCQSRT=GBADMHJAJAHLDAMJBCNCAEPJ; ASPSESSIONIDSSBRRAQR=GOGNGPJANOJNDEOECFDGEICA; ASPSESSIONIDCATSCDAA=HMJMODAAPKAGAFIBJNKFHAJB; ASPSESSIONIDACBDTSTR=CNDNNOJAEDKBHLGCEGIOFABE; ASPSESSIONIDACDDRATC=NOMLKAODHAOPKKFLMJOFNCAJ; rh8h_2132_saltkey=s4BHz5OX; rh8h_2132_lastvisit=1606496730; rh8h_2132_lastact=1606502554%09forum.php%09viewthread; rh8h_2132_home_diymode=1; rh8h_2132_st_p=0%7C1606500354%7Ce26c1c9a06d4ca20124ba56b90faa674; rh8h_2132_visitedfid=2; rh8h_2132_viewid=tid_3340962; AntXiaouserslogin=0AxDqvsD9ZpJL+1ZwS/d9yO3f2XqvCyMUrqlYZcm26Q09mbkL9HD99MkAoLJhdWr; history="13795901,"; ASPSESSIONIDAQSABCTA=OPPHJPJACIAGAFPGIMIFOJIN; ASPSESSIONIDAQBQRDRS=ALFCDINDGDIKPACIMEDCPPLH; ciw_lastvisit=28e9ptaPuhsG6MttQV6wnYED5CUXgZpS7uS6QhUdzZjvfh-S-mR-S-R8sBMR; ciw_city=272%7Chttp%3A%2F%2Fwanning.watchfang.com%2F; kuxin_history=35125%2C34; connect.sid=s%3ADp7hnGu2IijqY7tPfhiNq0oF9FVV5dv2.MGj33sUWALWnUGvxjqE2cwm3XZo105V2Lg2LQ8UCFBU; ASPSESSIONIDQCBQSRTS=FHNCFPJAKCNNLBCEHIFHJCHE; MyCity=%C7%E0%B5%BA; MyCityBM=%3Cdiv+class%3Dbmdiv%3E%3Cul%3E%3Cli+class%3Dbm%5Fred%3E%D2%BA%BB%AF%C6%F8%A3%BA%D5%D0%C9%CC%D6%D0%3C%2Fli%3E%3Cli+class%3Dbm%5Fred%3E%BF%ED%B4%F8%B0%B2%D7%B0%A3%BA%D5%D0%C9%CC%D6%D0%3C%2Fli%3E%3Cli%3E%BC%D2%D5%FE%B1%A3%BD%E0%A3%BA%D5%D0%C9%CC%D6%D0%3C%2Fli%3E%3Cli+class%3Dbm%5Fred%3E%B3%E8%CE%EF%D2%BD%D4%BA%A3%BA%D5%D0%C9%CC%D6%D0%3C%2Fli%3E%3Cli%3E%C9%E3%D3%B0%CF%B4%CF%E0%A3%BA%D5%D0%C9%CC%D6%D0%3C%2Fli%3E%3Cli%3E%B4%BF%BE%BB%CB%AE%A3%BA%D5%D0%C9%CC%D6%D0%3C%2Fli%3E%3Cli%3E%B5%E7%C4%D4%CE%AC%D0%DE%A3%BA%D5%D0%C9%CC%D6%D0%3C%2Fli%3E%3Cli%3E%C6%FB%B3%B5%CE%AC%D0%DE%A3%BA%D5%D0%C9%CC%D6%D0%3C%2Fli%3E%3C%2Ful%3E%3C%2Fdiv%3E; MyCityTempID=0; MyCityLogo=http%3A%2F%2Fwww%2Etijian123%2Ecom%2Fimages%2Flogo%2Egif; MyCityEng=qd; MyCityDomain=; ASPSESSIONIDAQTTQCRR=IDDLIEFAPIMNPIADOBKFDAMO; ASPSESSIONIDAARASDRT=OGBBIOJADMPKDECKFEBBFLHG; 1h8v_2132_saltkey=AfWuWFuG; 1h8v_2132_lastvisit=1606497474; 1h8v_2132_sid=PrRN46; 1h8v_2132_lastact=1606501074%09forum.php%09viewthread; 1h8v_2132_st_p=0%7C1606501074%7C127a78fbd8f32a4e3808c5743a10107f; 1h8v_2132_visitedfid=84; 1h8v_2132_viewid=tid_1377; lookjob=N; favjob=N; useridjob=N; ASPSESSIONIDSSRRAQQR=OPEHDBKAIEMHCGJDHBPCOLMG; home_lang=cn; admin_lang=cn; lp_ipcfdxgj11018919140ji9obk3plggif2qid258vbmr9f217=101.89.19.140; lp_id1018919140cfdxgj1ji9obk3plggif2qid258vbmr9f217=cfdxgj1; lpck_commentsji9obk3plggif2qid258vbmr9f=ji9obk3plggif2qid258vbmr9f; ASPSESSIONIDSARCBACQ=EIMNOEPDEAEAENOKPEILDNHD; a3JX_2132_saltkey=A9D3Z00R; a3JX_2132_lastvisit=1606498089; a3JX_2132_sid=kK8uJU; a3JX_2132_lastact=1606501689%09home.php%09space; a3JX_2132_home_diymode=1; ASPSESSIONIDACBQTBCC=IOHBFPJAKLGJMHJOIICPPHBI; ABTEST=7|1606501705|v1; Rnv9_2132_saltkey=lWv4CWzV; Rnv9_2132_lastvisit=1606498149; Rnv9_2132_sid=YMVg6u; Rnv9_2132_lastact=1606501749%09forum.php%09viewthread; Rnv9_2132_st_p=0%7C1606501749%7C636900001a6da62b59dd3e07634bc413; Rnv9_2132_visitedfid=37; Rnv9_2132_viewid=tid_93255; session_prefix=8b45118d2bf0d644360b8bea23893be0; ASPSESSIONIDSQRTARTS=OKKJHBKAABMLNDEMGDJPLGFN; ASPSESSIONIDACBBSTRQ=LNDPCBKADLENHALJPNJNMPGD; fikker-KdNR-QMEb=SZ3dEHSh5FkMAPiHSlMxSM5FUDSpqlY2; ASPSESSIONIDCQCQRBTT=BBILJCKAOOJHDMECGGLJJCJD; banIpStatus=no; uuid=rBEAZ1/BRugYH3h1AxULAg==; is_mobile=0; HWWAFSESID=31c3e73662a754a835; HWWAFSESTIME=1606502177049; whatsnssid=2abaf6d46dab433c; ASPSESSIONIDASBTSCST=BEJBOPJAJEDNELBJHJKBJBMM; ASPSESSIONIDAAAATRQQ=GODGIDKAFKDNPDEECEIBJJFE; l79I_2132_saltkey=JxCC3mJ0; l79I_2132_lastvisit=1606498926; l79I_2132_sid=tsdhU8; l79I_2132_lastact=1606502526%09index.php%09viewthread; l79I_2132_visitedfid=36; l79I_2132_viewid=tid_58210; acw_tc=784c10e616065026066146695e98908526956f90df5680cd754855a9f59aac; wp-editormd-lang=zh-CN; Weimorefun.customer=74e047bc-1861-43d3-88bf-5564d0a16018; ASPSESSIONIDCQDSRBBT=BFIBGIGALPNLNMKNNFGEEDOF',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs=1' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001396s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ VIEW ] /www/wwwroot/lehai.saifer.club/test/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000304s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-28T03:44:59+08:00 ] 58.247.212.239 GET lehai.saifer.club/admin/calorie/calorie_product/edit/ids/478?dialog%3D1
+[运行时间：0.211751s] [吞吐率：4.72req/s] [内存消耗：3,024.80kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007993s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001254s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'calorie.calorie_product',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'q-sub-business' => 'contentsecurity',
+  'host' => 'lehai.saifer.club',
+  'cookie' => 'ASP.NET_SessionId=hxh4zla3x5gydm45iybznh55; BIGipServerpool_m.med66.com=687946506.20480.0000; .ASPXANONYMOUS=jERXUxP61gEkAAAAMzY2MTFjMmMtNjc3Yy00YWYwLTg2OGItN2U1YmExMWU2NzM19aHUPVkc0Ec1IdX5KVlZ62Bg-gVaS3tLGANv68p2jOk1; zhangID%5F995=25211; zhangName%5F995=%B5%DA27%D5%C2; zhangTime%5F995=2020%2D11%2D26+08%3A31%3A05; shuID%5F995=995; Weimorefun.customer=7437c107-b351-4339-8295-a1227b426723; .Trait.Saler=6d5162fe-0710-4edc-b6b5-ed96f6560e18; .Trait.Antiforgery=CfDJ8Fc9SRnKEFlCvjcV7IjvfdvEW6lg6sHZMejTCUo8dVSG1J1FgsHUWuQUEwNWw2-VoOeT0FAzyrn7qaAuwyvU7c2AoVO-3O--K4IZQEiIRFmCGYaOM8Nr4hRoIiiGBLnA4wf_MafL914OEKOO3584rTM; PHPSESSID=012f54ddf82d517d8a1888344b19407e; _d_id=2fd7a81f09ddde16ea09735f44f321; ASPSESSIONIDSCSTACQA=HJDCNIEAKFIKOKAKFBDBLCMH; experimentation_subject_id=ImRlYTZiMGUzLWIyNjMtNDE5NC1hNjEyLTY4ZjEyNjFhODg0ZCI%3D--785e324c5a0bce99679c10e9f8cc5280a1db9ff1; ASPSESSIONIDCATTDQRD=ONHOMJBAHHCPAABJCPKHNKHI; ABTEST=8|1606461151|v1; security_session_verify=2febce223000b09c1de617dd1c33e07b; PTCMS_history=6889%2C1335%7C2544%2C1141%7C71986%2C363%7C2420%2C1482%7C7270%2C1755%7C40%2C70%7C28681%2C30%7C3884%2C295%7C13448%2C130%7C78245%2C941%7C184687%2C426%7C797%2C963%7C1595%2C1180%7C1814%2C1089; kangle_runat=2; ASPSESSIONIDQQTQCQSR=DPGJNCFACICFKCCCDDOLDNEN; ASPSESSIONIDQQTRBTQQ=DIHGMBFAAOFMHGNEBPMMEEHC; think_template=default; ASPSESSIONIDASRCACSB=MPBDHCFAAGIPBBDFMOCFKKOM; __jsluid_h=c365c592b239951311112865af31e091; ciw_lastvisit=ab43yAN-P-R4X3bxGM3RwQgmUFpDfmUSdRvtJtlrkXO7jts-P-QTiiT8zRYA; ciw_city=28%7Chttp%3A%2F%2Fbaiyin.watchfang.com%2F; mmwikissid=cfb76d608879264b8d8610e15dddbd42; hZxuak_lang=zh; IPLOC=CN3100; IPISP=ISP; ASPSESSIONIDQQDQDDTC=LMHJLGCAFEKIOAGLKLJFHIDP; ASPSESSIONIDSADSQRCT=IDHPLBBADPHPHJLOKECEBNNB; BIGipServerfor68_java_pool=2801849098.20480.0000; EJR4_2132_saltkey=bFr2fjkf; EJR4_2132_lastvisit=1606457967; EJR4_2132_sid=GaEx1K; EJR4_2132_lastact=1606461567%09home.php%09; EJR4_2132_home_readfeed=1606461567; ASPSESSIONIDCQCDQTDB=GJAILCKDMFALHJPDHEGFJELK; mid=MXAGXz; InitSiteID=101558; SiteType=1; IsDefaultLang=1; WUserID=15962725166246; Lang=cn; yz_site=isSite; __RequestVerificationToken=nuq_YyS-m5fNpyVkaUNb3E4k1v5UMNazgsvBdBd94e1RewDvu6rmLPuZ17iYr_NvlokDWOHWIdMNxNVgvanT_dti9V5_sMV2xl151NAwHDY1; tradeLdc=NJYH; TyoI_2132_saltkey=QjI3Jljx; TyoI_2132_lastvisit=1606458148; TyoI_2132_sid=L76VbG; TyoI_2132_lastact=1606461748%09forum.php%09viewthread; TyoI_2132_pc_size_c=0; TyoI_2132_st_p=0%7C1606461748%7C2a4611bf16740f8e35dc8ac1bbd19edd; TyoI_2132_visitedfid=214; TyoI_2132_viewid=tid_37452; CK_OPENID=lpalwG0Rl37h8j3iOZ2FrPqFScHyJN+KH92kYQc=; ASPSESSIONIDQACSSRSS=DBOOEFNDLPOMEMJKEPCNKCML; Gewg_2132_saltkey=HO2dl5O5; Gewg_2132_lastvisit=1606458168; Gewg_2132_sid=TMhsUL; Gewg_2132_lastact=1606461768%09portal.php%09; hmf_search_engine=e30=; ZDEDebuggerPresent="php,phtml,php3"; language=en; shop_id=8013306; 6dxQ_2132_saltkey=ItKOvRWY; 6dxQ_2132_lastvisit=1606458346; 6dxQ_2132_sid=NyXN2E; 6dxQ_2132_lastact=1606461946%09forum.php%09; SNUID=0995DCE0868330941758C79E86D94C8B; vds=gaCTclTmTndxxlmwcBBLBwxbNBLmfxmIlTedsdeuemBGsLcsLuBbeuxuLIus; .Trait.Customer=6d5162fe-0710-4edc-b6b5-ed96f6560e18; .Trait.RecentlyViewedProducts=328958%2C462328; N6kL_2132_saltkey=vfc8uMMk; N6kL_2132_lastvisit=1606458824; N6kL_2132_sid=DeOeiY; N6kL_2132_lastact=1606462424%09home.php%09space; N6kL_2132_home_diymode=1; XSRF-TOKEN=eyJpdiI6ImhEMW5XSzI3K3VZTFlSYmVEQ29wY0E9PSIsInZhbHVlIjoibURQeDNrR2JcL1h3dFprdFkxNXNcL09obHowMjR5d1JcL0dKZ0lFdXRSV0dcLzMxdldJVDJxTG1GUmo1YXVrOWQzRkQiLCJtYWMiOiIzNGNhZDE4OGUzNDcwMDA2Yjc1MzljMGM3ZjVhZTMwNmZkNWFhNzVlZGZjYjA0NGIwZmZkYjBmMDQyNTE2ZWU0In0%3D; laravel_session=eyJpdiI6IlJNWUp4UUhjRHlmbExsRm85NmxDZVE9PSIsInZhbHVlIjoiYlF0SjladFlGVklZekRHZmFlcDEyRWhyWTJcLzVnNVgxUWw5d2FIZHhiMjQ4NmZTZ2xXN3AyZmpZTVZTNERnXC9sIiwibWFjIjoiZmVjN2EzYTQyODY3YjYyN2NiMDIzODIwYWJjYjY1ZmYxNDYxYmY3NTE5NjUwNjQ2ZTE1OTcxZWIxZmFhYjllMCJ9; ASPSESSIONIDAQQCRBQD=KFCHPFFABBFEEMJMDHGCPAFA; ASPSESSIONIDQQRRBRCA=ADOEONCABGGKKAEJAANPELBG; rh8h_2132_saltkey=ptERtYV5; rh8h_2132_lastvisit=1606458853; rh8h_2132_lastact=1606504887%09home.php%09; rh8h_2132_home_readfeed=1606504887; ecsid=9832292fe2239788d11e3c04c0ca15813fc16536; lf___forward__=%2Fall%2Fid%2F34%2Fsize%2F3%2Fupdate%2F0%2Forder%2Fupdate_time%2Bdesc.html; DB4_mobile=touch; spath6671=007; ngx_id=wKgIgl/ArDKIM+iAAxAJAg==; zentaosid=istcoo00ld0btr4urrqsk9god4; first_entry=eyJpdiI6IkVsVUMraDZEU2wzaFwvbE9wWTlNZHNRPT0iLCJ2YWx1ZSI6Ild6SysxSzNKRWR5dkFNSkNJa3dvQ3lScUJJTGRpeHEzSzFQcGNhXC80YUx0SWU0N2xcL0xaNVl6U0xIZUhLdU9oRFZVb1RMTTN2RUFwdkVGRHhZN0tybFE9PSIsIm1hYyI6Ijk5MTYyNzlhYzE1MGMyNWNkMDdjMjRhMWM4YTYzMWU1MDgxM2YzZTkwOWQ4NWIxZWI5OTBkYTljOTJkNzI3YjUifQ%3D%3D; ecology_JSessionid=aaamNRfztIyyr6tjvheyx; beegosessionID=94a566ec24eab5d04a369fc22d0cb837; BJYSESSION=3c29nmc8du9gecqlllbb1j5tk4; ASPSESSIONIDQQTQCTQQ=HGHNCGFAHAKJEABLDBHFIAMO; is_not_first=0; VisitShopStr=shop%3A0; rh8h_2132_st_p=0%7C1606501252%7Cb60a1a2752ee50f7f9bf25220517701b; rh8h_2132_visitedfid=15D25D2; rh8h_2132_viewid=tid_4428636; _csrf=_Hmcx4UeGXtJ9mEaG_c0v7g_dcE6MTYwNjQ5MzAwODk3Mzk0MzI3MA%3D%3D; cf_ob_info=520:5f8e401c3948ed63:SJC; cf_use_ob=0; ASPSESSIONIDAACBQSSQ=GMIFHGFABDCGKBEEGPKKCKBL; config_wycq_config_auth=628ac407814fb7788341abaa78fb80591041c602%2BjL6eWihAkPRcWgfXTv42mlAYFXlD7RhOQ1dvyjBF; ASPSESSIONIDASDTTAST=LPJDMGFAHPGNDIGNNDMJJNCM; d2d977c58444271d9c780187e93f80e5=think%3A%7B%22verify_code%22%3A%22e08073efd932442676d041649ccfee35%22%2C%22verify_time%22%3A%221606462896%22%7D; bbs_sid=a3ph2hsq49dbd0dr8q7l3d8ia7; alRL_2132_saltkey=qrGjAC44; alRL_2132_lastvisit=1606459346; alRL_2132_sid=uEX2ab; alRL_2132_lastact=1606462946%09misc.php%09; cof_city=102%7Chttp%3A%2F%2Fhz.fangsk.net%2F; ASPSESSIONIDSQQCDACQ=OFLPOJBABPKMADFJFLJPJOAF; cityInfo=think%3A%7B%22id%22%3A%221%22%2C%22name%22%3A%22%25E6%25B6%25BF%25E5%25B7%259E%22%2C%22lng%22%3A%22116.0107980218%22%2C%22lat%22%3A%2239.491586132869%22%2C%22domain%22%3A%22zhuozhou%22%2C%22seo_title%22%3A%22%22%2C%22seo_keys%22%3A%22%22%2C%22seo_desc%22%3A%22%22%7D; BT_PANEL_6=2cc8c4c8-e040-47f4-a2bb-75679c9bfc71.v_y7jFzzR2iNK6fecN1kHbOxTMA; geturl=%2Fdispbbs%2Easp%3Fboardid%3D100%26id%3D85360%26page%3D9%26move%3Dnext; ASPSESSIONIDQARRRSDS=DELHCJEAJNLNEJOEDBPLNBBI; egwP_2132_saltkey=ypXU5Pua; egwP_2132_lastvisit=1606459432; egwP_2132_lastact=1606463032%09forum.php%09viewthread; is_first_tc=isfirst; 7u4s_2132_saltkey=MsEp1PfS; 7u4s_2132_lastvisit=1606459468; 7u4s_2132_sid=FoJO6v; 7u4s_2132_lastact=1606463068%09index.php%09viewthread; 7u4s_2132_st_p=0%7C1606463068%7Cdc443dd015cf374fd1f6f9dee3c98522; 7u4s_2132_visitedfid=83; 7u4s_2132_viewid=tid_357; home_lang=cn; admin_lang=cn; SESS32387d6b04efbe657905df41496ed47f=l-eCHcFhsMI-YFx_3nYKa_zcJ75Ezw6NwUcxO9qVCWg; 2mHl_2132_saltkey=Oh8k6If1; 2mHl_2132_lastvisit=1606459601; 2mHl_2132_sid=ZJ524b; 2mHl_2132_lastact=1606463201%09forum.php%09viewthread; ssvQ_2132_saltkey=qIIaPmaX; ssvQ_2132_lastvisit=1606459637; ssvQ_2132_sid=LIDMb9; ssvQ_2132_lastact=1606463237%09forum.php%09; yunsuo_session_verify=38eff370ae8492f78a64e1bc7a84f54a; youdianinfo_historycn=646; ASPSESSIONIDAQCSSBAT=FANEFNCAAOJIMOEMAKMABAOI; ASPSESSIONIDQSQRBTQR=FDDJHFFAHEPBHJPAJNGGBAMB; Zttr_2132_saltkey=qkfHzrA0; Zttr_2132_lastvisit=1606459737; Zttr_2132_sid=fJgSrI; Zttr_2132_lastact=1606463337%09home.php%09; Zttr_2132_home_readfeed=1606463337; ASPSESSIONIDQQQSBTST=IBFHNHFAOLJMLEPDFHFCPKML; waf_cookie=39151cb1-a300-4589352f0dfef21d9c7f0a6c1cc88a69b1aa; DtVS_2132_saltkey=Ij6dxOUQ; DtVS_2132_lastvisit=1606460370; DtVS_2132_sid=gswcAF; DtVS_2132_lastact=1606463970%09forum.php%09; xyf__Session=v0h612r13o8169e71gsnb1nph4; ASPSESSIONIDSSTSDTQR=ILEANHFAAEOJCKFOJKMGNNHE; xmplp_session=eyJpdiI6IkF2MFBpWkcxa1VWZUVSXC9wNlo4S1RnPT0iLCJ2YWx1ZSI6IjlyTTZWbWZpZ2RpSU1STkxMVURwcXZHRlwvVW41bVAwM3hRUGdSV09UOEIwTXh0VVwvRVpnTU1XMDJYQklDSjVQa040Q0ZVV2dkcVB4d2FtWnNoTGhPR0E9PSIsIm1hYyI6IjhmZWE0ZTYyNjM5YWI2YmE1M2M4MDc5MDk4OWFmNmI5MWRmNDExZTE4MDMzYzlhNGZmYmFlNDdjMWQxNTE2ZTMifQ%3D%3D; X_CACHE_KEY=c78fa7833e646a63ac769aa6a178c271; type=index; ASPSESSIONIDSQTCRSCC=GOLNNCNDCHPDDIHCENBJBDEL; ASPSESSIONIDQSSTDRSQ=PJANALFACKFIMMBDLMJLBBMC; ustk=20201127_989320431_493929755; spath50560=005; 8df78958162c1ade6565385d688e43b6extend_contents_views=457; AUSHOP_sid=2ef77fdc4faac6ceabd915882e68a135; session=7568754b-838e-4482-a1df-00be8c639501; dujiaUserToken=2d9f46bf-5f2c-496f-b57b-83cc9dcba1fe; ASPSESSIONIDSQDBSBRD=HJDFEEAAOBFKOGCJNBJADBLO; ASPSESSIONIDAADBSQSR=CPMPALFAGCNJCPFDIANHJMBE; PlatVisitCount=SFdWWDVzOEdGVi9raDJCM0o0R0FtZWN0RHJUMVZCRWNadGRwSHNNOGFYVT0=; ASPSESSIONIDCQDAAAAD=CAEPECNDGAJLHEEDCIPGIJCE; ASPSESSIONIDCQQSBCSB=ODDKKGODCAHPKAHDPOJJHHEE; ASPSESSIONIDCCAAAQBD=KFBENDDALHPJCLCFEPHFFKDM; 3471f_c_stamp=1606465726; 3471f_lastvisit=0%091606465726%09%2Fthread.php%3Ffid%253D9%2526page%253D5; 3471f_lastpos=F0; ASPSESSIONIDCQBTQABT=ALMABECACNJABMCJAPNBAPDM; ASPSESSIONIDSSQTDTBB=HIGPNNCAPPCHNOIGJHABFLFG; history=959cfe63a25a33edaabc4a59f00d4e99437cbe28%7E1735624%2C1744460%2C1922098; cart_returnUrl=c9289e38a226ce5f875598bc3a79da2d4a6df923%7Ehttp%3A%2F%2Fbeta.www.5lux.com%2Fgood%2Fdetail%2F5952056; ASPSESSIONIDCQQRSBCA=PCLKJABAIPKHEJEDLADKDABP; site_r=clearTimeout%28AT%29%3BresponsiveImage%3Dfunction%28el%29%7Bel%3Del%3Fel%3A%27body%27%3B%24%28%27img.responsiveImage%27%2C%24%28el%29%29.responsiveImage%28%29%3B%7D%3B; ASPSESSIONIDAAQRDTBT=GKGLIICADJBIGPBDNDGONPFI; BT_PANEL=45cdb1346ce5b80e4c5e7f3f109a96003b597eee; KByX_2132_saltkey=H22mJ8MV; KByX_2132_lastvisit=1606462600; KByX_2132_sid=D8OoUO; KByX_2132_lastact=1606466200%09home.php%09; KByX_2132_home_readfeed=1606466200; kuaiyou_siteid=db2dPe5eYDb6mxIvUtyzCbQMCI3XTySZ2aO9e9PV; visits=3; ASPSESSIONIDQSTRCSQQ=JKCHGNFALMPKOFMLIFALKLOI; ASPSESSIONIDCSBTASDD=LIFNMNFAMIJFGKOMLMGGKOLE; BBmy_2132_saltkey=pWVS82cx; BBmy_2132_lastvisit=1606462877; BBmy_2132_sid=K2QrHr; frontsid=hugjgq91psju1vm4jmh6tr4a74; frontLang=zh-cn; frontDevice=desktop; theme=default; iweb_safecode=367ac36523MDA2MDIwNDkxNzI4NWY1OGNhYzgzNzswMmJhYzVgODQ0NGlgNjEyMjcxNjhjPGFsYWI4NGY0ZWM5MTcyPjBsZA; iweb_iusername=33119ca3e1NzE4MDE2OTQwMjQzZmA2N2JmamU3NmZjOzIzYWFhOWw; iweb_iuser_pwd=351cfdf121MDIwNzcwMDc4NTM1ZmI3MWdjY2A2NmZjOzc6YmZgOWA; ASPSESSIONIDCAACQTTQ=PAIHGNFAKJLBKNHMBDFEDMOL; ibuySessid=daf394806d271147ef5fa20b4a9c93c9; ASPSESSIONIDQSQRARQS=IMOOHMFAKOOKOMMHJMPCKODC; ASPSESSIONIDCQCSSDRT=KGNLMNFAOOOGGFFOMPDHKLCC; currency=USD; ASPSESSIONIDSQATARBA=IGEJIHCAOIGJANILIFFKONMK; ASPSESSIONIDSSRSDRBB=CBNPNNCAGNIJKKJHJCCPPBIH; ASPSESSIONIDSSQTBSRR=HIACJOFAAHLFOIHGDBJDHJDH; ASPSESSIONIDSQTSDSQT=EDGHNOFALCJPJDHBPAIOLCPG; ASPSESSIONIDQQCRRBRR=DLBDHOFAOGEENJOOHLDODCJM; ASPSESSIONIDCQBSQCST=BDCDJPFAEECPHIJNMHLGBNCF; ASPSESSIONIDQSQSDSSQ=DACAMPFAENMHNMKONELCOBLF; ASPSESSIONIDQQTRCSBA=KNIIJKEAGJHMFKDEJEJDFONL; ASPSESSIONIDSSSRARAR=FJENDHCAAFGFIHOPLCOLDJNO; UTv_lastvisit=0%091606468047%09%2Fread.php%3Ftid%253D19731%2526fid%253D69; csrf_token=a8e6cb55a6099a6a; s=7e10647cc771d1354eda7be698052e1e; vary=00da7751b9e35828d0dccc87ddc8a06df52a5b7e6e0e2aac169babc76e90386d; ASPSESSIONIDCSCTQBAS=OKNNACDAECNFHBBPLLDHJLBO; user_sid=d1c5ab43af; 6Bh1_2132_saltkey=vDmy5YvA; 6Bh1_2132_lastvisit=1606465030; 6Bh1_2132_lastact=1606468630%09forum.php%09forumdisplay; 6Bh1_2132_st_t=0%7C1606468630%7C36de2d9e237ecc89dcfff3e7cccafdc5; 6Bh1_2132_forum_lastvisit=D_55_1606468630; 6Bh1_2132_visitedfid=55; dxos_2132_saltkey=JOv4O44C; dxos_2132_lastvisit=1606465061; dxos_2132_sid=Lpvp9M; dxos_2132_lastact=1606468661%09portal.php%09view; hdmPlayNum=video_comic_id_245; hdmHistory=245; idfl0=0; ASPSESSIONIDSQSTQSQA=EDAKMPDALNHHAGNBODMDBGHJ; ASPSESSIONIDQQSTCSSS=FEJFBCGANNDCGEGAOFLJNPFO; wordpress_test_cookie=WP+Cookie+check; ASPSESSIONIDACDDQRTR=IIDIBCGAGAEGKDFLOFGBIFNK; ASPSESSIONIDAACDTAQC=NJHMHAODHOBAKJEAOCPKLCIN; 6ef7b_c_stamp=1606469149; 6ef7b_lastvisit=0%091606469149%09%2Fck.php%3Fnowtime%253D1606366343713; 6ef7b_cknum=BVIABgNQCgJVADA%2FB15VUgIBVVVTCFYHUAMAC19SAg5cUQkGUV1WVAUCCwI; ASPSESSIONIDASCBASAQ=AELJFHEAAAKFCENLFBADKGNP; __cdnuid_h=265d7e8ec2c8b97966812f5efd63a959; ASPSESSIONIDSCACQTAR=JOKBNBICDHBDOOHIIJNFNANF; 553b2_c_stamp=1606505609; 553b2_lastvisit=0%091606505609%09%2Fread.php%3Ftid-38050.html; 553b2_lastpos=T38050; 553b2_ol_offset=1649; 553b2_ipstate=1606505609; 553b2_readlog=%2C37094%2C38050%2C; 553b2_ci=read%091606505609%0938050%0934; CAKEPHP=988prk8sv581a99rjlfgl01h23; kuxin_history=6686%2C2591%7C4912%2C3438%7C6341%2C68%7C857%2C4589%7C5559%2C32%7C27637%2C235%7C27070%2C268%7C13901%2C7%7C26979%2C484%7C8698%2C1%7C21016%2C98%7C8301%2C30%7C2255%2C14%7C8174%2C190%7C57985%2C148%7C13238%2C83; php-webapp-zidian=5f4d489271c5f4830d1ec39a7b846449; ajDy_2132_saltkey=W9a20YV1; ajDy_2132_lastvisit=1606466018; ajDy_2132_sid=I9Ofm9; ajDy_2132_lastact=1606469618%09forum.php%09forumdisplay; ajDy_2132_st_t=0%7C1606469618%7Ccb298ee98ec437b6d364f31477e5336c; ajDy_2132_atarget=1; ajDy_2132_forum_lastvisit=D_6804_1606469618; ajDy_2132_visitedfid=6804; pY0J_2132_saltkey=DO5y2KRb; pY0J_2132_lastvisit=1606466031; pY0J_2132_sid=gQn98G; pY0J_2132_lastact=1606469631%09index.php%09viewthread; ASPSESSIONIDQQTTBQQT=GIAEEDGACEDONOEEICKMAEDH; stb_session=XweNUKxVbCQCT2t4coL%2FjlLajUG80dE%2FKH2f7QIN6Eps5FUjQjUxlIpv5riE1JkRWz6R7RIxpgvl4yWNmWulnHXliC6BuxOGZF%2FBOZvQQBMii2iZ51rf%2FNngyqqjmmbv8PnQvQt52gnkQMPNVVsKeN1TLjsBdyE7Z9t%2BNzFnyeUL%2F%2BCBUJtrWFuGZt7tIWuuwQiHQ9MLur02LaAIhfSxRm8SNWkkwn5Nhd6%2FxnrF2c9Z6IeQjpk63nqK3Kd3IdCbKnsh2Lpk4mZNerrDl%2Bj1z9qai9GdaXsrQC1j7fFmSww8WybdQsgD%2BAWLTLLwURAoe3t%2F%2BH8WvlF4w9GB%2Fy6ouObrma7RM9f%2BvtfSWmIZ06WIsJzRWTbKj%2BbH6tL7k7Mhoz1zTERSxp95%2FmObbdaTYj%2BLtB2Wnkb4SopoRtmApPc%3D; lg=cn; PbootSystem=rlp3l4dl0qo8us0597gd01ch0q; __RequestVerificationToken_L2VuZ2xpc2hmaXJzdA__=kPsbpseKGqm+Hd5uR/029uZFIdwkpaUk+CzcI7BzKFKIbOEHoDEaHrvpIC0BwIImf8I/IMXZqjwKs1u1j/N+d+W/dvDoaM6aNcLUW7vdApo5Q6RW8wpr8XnwHSk/qfrvhzPqPxKxSbzCMQBwyXZ1rS9PCBI=; mBbL_2132_saltkey=tG1hvFHs; mBbL_2132_lastvisit=1606466531; mBbL_2132_sid=I5CX92; mBbL_2132_lastact=1606470131%09index.php%09viewthread; ASPSESSIONIDQQQRABBQ=PBDFKDGAIKNFHCICEPBNHCIL; lJsQ_2132_saltkey=F3F4Ix51; lJsQ_2132_lastvisit=1606466716; lJsQ_2132_sid=SfQ8eL; lJsQ_2132_lastact=1606470316%09forum.php%09; UUID=2475c157bf81b6ae2c425ef0f93fa5fa; ASPSESSIONIDQSDSBTBS=FGHPGFGANCNAIHONPFAICMCL; ASPSESSIONIDCATSCDAA=EBILODAAHPBNGHEOEENFGFOK; AJV3_2132_saltkey=h6ZHRLZ4; AJV3_2132_lastvisit=1606466801; AJV3_2132_lastact=1606470401%09plugin.php%09; ASPSESSIONIDAQTAADTA=JLJNPEGAOKHLKFGLJADCDOCB; K65u_2132_saltkey=OLkK1opk; K65u_2132_lastvisit=1606466887; K65u_2132_sid=mDx0PM; K65u_2132_lastact=1606470487%09forum.php%09viewthread; K65u_2132_st_p=0%7C1606470487%7C1f039c3a4059e42a6a24c4510f74b253; K65u_2132_visitedfid=47; K65u_2132_viewid=tid_11278; ASPSESSIONIDASDTSSQT=MGLFODCACHFFDPGPPOJONHEE; ASPSESSIONIDQQSTDTRQ=DHBJJFGAIHELCKPFMLNHFMCD; session_prefix=30499459b5213dec77a1a01ceea274a3; ASPSESSIONIDCSDQDBCC=KGIADCMDFKFBOPCHOMAOOGPM; 5mVc_2132_saltkey=bN2p44EE; 5mVc_2132_lastvisit=1606467412; 5mVc_2132_sid=eePPsS; 5mVc_2132_lastact=1606471012%09home.php%09space; ASPSESSIONIDSSQRBTRS=DHGHOFGADEHBDMEDHIMIFADA; OTun_2132_saltkey=Zsz3l0js; OTun_2132_lastvisit=1606467549; OTun_2132_lastact=1606471149%09misc.php%09tag; discuz_2132_saltkey=z1da2BAd; discuz_2132_lastvisit=1606467771; discuz_2132_sid=PTDZt2; discuz_2132_lastact=1606471371%09forum.php%09viewthread; discuz_2132_pc_size_c=0; discuz_2132_st_p=0%7C1606471371%7Ccd37a65812b01f53946dac196c18a201; discuz_2132_visitedfid=12; discuz_2132_viewid=tid_381088; FjiO_2132_saltkey=UVk0AXCs; FjiO_2132_lastvisit=1606467826; FjiO_2132_sid=sbqVKG; FjiO_2132_lastact=1606474347%09forum.php%09viewthread; FjiO_2132_pc_size_c=0; FjiO_2132_st_p=0%7C1606474347%7C72bb921b5f904ee25d72a79ed61d9b60; FjiO_2132_visitedfid=85D86; FjiO_2132_viewid=tid_410760; ASPSESSIONIDAQDSRTCD=MMOBBEGAILDFADPMIMJLNNIM; f4f6cee6966d532f89bd5fa800784b5flatest_time_id=48; f4f6cee6966d532f89bd5fa800784b5fextend_contents_views=13; ASPSESSIONIDCCSRDADB=MEMKODAAOBOKBCJCLKAGNHEF; ASPSESSIONIDSSSQBQDA=PNKBONCAIDBGCFJKFNACDOJC; VDSSKEY=7msj88m0rvdbein1oe86rlf9s5; uyjJ_2132_saltkey=yvhBCKk3; uyjJ_2132_lastvisit=1606468702; uyjJ_2132_sid=SHM0mu; uyjJ_2132_lastact=1606475156%09index.php%09viewthread; uyjJ_2132_home_diymode=1; lp_ipdhhy258247212239012f54ddf82d517d8a1888344b19407e217=58.247.212.239; lp_id58247212239dhhy2012f54ddf82d517d8a1888344b19407e217=dhhy2; lpck_comments012f54ddf82d517d8a1888344b19407e=012f54ddf82d517d8a1888344b19407e; timestamp=1606488939000; sign=7D625EDC560452F1882A18C658D9B77F; YII_CSRF_TOKEN=9b09e1bc857d650f6b80a2952f2753e89eca29c6s%3A40%3A%2219230026a800d1c54c74f37c49880f232d3be9a5%22%3B; house=think%3A%5B%223019%22%5D; _index_recommend_time=1606473870; _index_recommend_jobs=think%3A%5B%22%25E9%2594%2580%25E5%2594%25AE%25E4%25BB%25A3%25E8%25A1%25A8%22%5D; USR=ipwayl7l%090%091606496724%09http%3A%2F%2Fwww.yahui.cc%2Fstock%2Fhk%2Fpage-277%2F; ASPSESSIONIDCQBQCDSA=NOAGOBDACAFLFPLHKHAEBPIG; Mwdi_2132_saltkey=LWPBwS8J; Mwdi_2132_lastvisit=1606470762; Mwdi_2132_sid=Tyvvy2; Mwdi_2132_lastact=1606474362%09home.php%09; Mwdi_2132_home_readfeed=1606474362; pTbx_2132_saltkey=Xc6S66s4; pTbx_2132_lastvisit=1606471070; pTbx_2132_sid=odN7QE; pTbx_2132_lastact=1606474670%09home.php%09space; pTbx_2132_home_diymode=1; qHgs_2132_saltkey=LTK3wrDd; qHgs_2132_lastvisit=1606472234; qHgs_2132_sid=JaF3vV; qHgs_2132_lastact=1606475834%09forum.php%09viewthread; qHgs_2132_st_p=0%7C1606475834%7Cdb0dbca3f889d55db8c7a3132379403e; qHgs_2132_visitedfid=40; qHgs_2132_viewid=tid_31712; wp_xh_session_5e1a1270d73a95097f173b93f81e95fe=235ff8cad5459395704ad7cd4b39649f%7C%7C1606648666%7C%7C1606645066%7C%7C645a84890352b6add7f3e8aa42b7274a; phpu=1; uloginid=6261264; ASPSESSIONIDQCCTSSTA=ENPJFIAADAKIGKBAPGOAIFIG; ECS_ID=29efce4118503c44fef07c16ea8040599ab248f8; lp_ipbjjyx58247212239012f54ddf82d517d8a1888344b19407e73=58.247.212.239; lp_id58247212239bjjyx012f54ddf82d517d8a1888344b19407e73=bjjyx; GJw4_2132_saltkey=bK3fsG87; GJw4_2132_lastvisit=1606473651; GJw4_2132_sid=msErMR; GJw4_2132_lastact=1606477251%09home.php%09; GJw4_2132_home_readfeed=1606477251; ASPSESSIONIDSSQCQCQB=OPMLKCFAPCABEIAACHHOOAID; BIGipServerpool_m.jianshe99.com=704723722.20480.0000; fFuq_2132_saltkey=uX4MIiIi; HFS_SID_=0.470738385803998; WJtn_2132_saltkey=dOL2LD5d; WJtn_2132_lastvisit=1606475037; WJtn_2132_lastact=1606478637%09forum.php%09viewthread; randnumber=493; ASPSESSIONIDQQTQBTBA=KCLPNNCANCPEIDCCEKKPOEFB; admin_session_config=a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22cd8fb2b6612a680baae1853cc04fc79b%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A14%3A%2258.247.212.239%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A72%3A%22Mozilla%2F5.0+%28Windows+NT+6.1%3B+WOW64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1606498481%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3B%7D8e8768582536b34032e684a80524e1f6; XLjG_2132_saltkey=eEgGM5Tf; XLjG_2132_lastvisit=1606475886; XLjG_2132_sid=D89TAx; XLjG_2132_lastact=1606502005%09forum.php%09viewthread; XLjG_2132_st_p=0%7C1606502005%7C50fbef064c0e609587fc58857ca9f297; XLjG_2132_visitedfid=99D58D54D35D36; XLjG_2132_viewid=tid_212644; 0mYW_2132_saltkey=yy5cvg7L; 0mYW_2132_lastvisit=1606475902; 0mYW_2132_lastact=1606493017%09forum.php%09viewthread; 0mYW_2132_st_p=0%7C1606493017%7C972fd5a2a79e66297c77c2fbf8dca48a; 0mYW_2132_visitedfid=36D37; 0mYW_2132_viewid=tid_143765; default=p4n3ht7as3ahhcredtgm7dj557; lp_ipsxbxm58247212239012f54ddf82d517d8a1888344b19407e217=58.247.212.239; lp_id58247212239sxbxm012f54ddf82d517d8a1888344b19407e217=sxbxm; fangcaiji_ip=58.247.212.239; route=6f8b56b6bea06eafd3a4cc07dbb0ae14; ci_session_zmq=a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22636466d98e65666dde391cd3f391c7b2%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A14%3A%2258.247.212.239%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A72%3A%22Mozilla%2F5.0+%28Windows+NT+6.1%3B+WOW64%3B+rv%3A57.0%29+Gecko%2F20100101+Firefox%2F57.0%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1606482087%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3B%7D0edfb6db3c79fc5a18a40adb4ba1c90c; x5n0_2132_saltkey=MGTYg44Y; x5n0_2132_lastvisit=1606478528; x5n0_2132_sid=dO2e48; x5n0_2132_lastact=1606482128%09forum.php%09viewthread; x5n0_2132_st_p=0%7C1606482128%7Cfea7b67c7850301226066027f9775b74; x5n0_2132_visitedfid=120; x5n0_2132_viewid=tid_11445; RJpj_2132_saltkey=QcI0KiCQ; RJpj_2132_lastvisit=1606478530; RJpj_2132_sid=ESFytS; RJpj_2132_lastact=1606482130%09home.php%09; RJpj_2132_home_readfeed=1606482130; php-webapp-gwy=ccce0013640a9a4b87d53fe1380295b4; 2ecY_2132_saltkey=Bb43Vny4; 2ecY_2132_lastvisit=1606480198; 2ecY_2132_sid=CyjsKe; 2ecY_2132_lastact=1606483798%09forum.php%09viewthread; 2ecY_2132_viewid=tid_71736; uBXq_2132_saltkey=qlRF3lNL; uBXq_2132_lastvisit=1606480382; uBXq_2132_sid=d5ZpYY; uBXq_2132_lastact=1606483982%09indexa.php%09; I5ai_2132_saltkey=N0BI2b25; I5ai_2132_lastvisit=1606480956; I5ai_2132_sid=razcuV; I5ai_2132_lastact=1606484556%09index.php%09space; I5ai_2132_home_diymode=1; HRbf_2132_saltkey=aBQH25S2; HRbf_2132_lastvisit=1606480974; HRbf_2132_sid=drL7jM; HRbf_2132_lastact=1606484574%09portal.php%09view; 0mYW_2132_home_diymode=1; user_search_history_region=a%3A1%3A%7Bi%3A0%3BO%3A20%3A%22Model_History_Region%22%3A6%3A%7Bs%3A8%3A%22regionId%22%3Bi%3A6180797%3Bs%3A12%3A%22regionNameCn%22%3Bs%3A15%3A%22%E9%87%8C%E6%98%82%E5%8F%8A%E5%91%A8%E8%BE%B9%22%3Bs%3A12%3A%22regionNameEn%22%3Bs%3A17%3A%22Lyon+and+vicinity%22%3Bs%3A11%3A%22checkInDate%22%3Bs%3A10%3A%222020-11-28%22%3Bs%3A12%3A%22checkOutDate%22%3Bs%3A10%3A%222020-11-29%22%3Bs%3A8%3A%22hotelNum%22%3Bs%3A3%3A%22503%22%3B%7D%7D; libnet_id=t245tco899ngqjsgl6kl6af9f5; uuid=rBEADl/BVvh2EB48AxxpAg==; uipx_2132_saltkey=xi05bUpu; uipx_2132_lastvisit=1606481874; uipx_2132_lastact=1606485474%09home.php%09; uipx_2132_home_readfeed=1606485474; 1iuF_2132_saltkey=al0VS6Ya; 1iuF_2132_lastvisit=1606482454; 1iuF_2132_sid=CY0h0w; 1iuF_2132_lastact=1606486054%09forum.php%09forumdisplay; 1iuF_2132_forum_lastvisit=D_428_1606486054; 5zY4_2132_saltkey=TSWmMC4X; 5zY4_2132_lastvisit=1606483107; 5zY4_2132_lastact=1606499364%09forum.php%09viewthread; 5zY4_2132_st_p=0%7C1606499364%7Cf89afa94e572a96ff66d45e268ee1c41; 3b937_lastvisit=0%091606486752%09%2Fvip%2Fpost.php%3Faction%253Dreply%2526fid%253D2%2526tid%253D114868; 3b937_lastpos=other; 3b937_ol_offset=3880; ASPSESSIONIDAATSCDBA=MBKMODAAGPECOALGBINPNNNG; _xsrf=2|084947c9|02e45a3b907e785ea3890570bbe310c1|1606486910; _session=eyJpdiI6IkJwanM0YzdBaGt2eXhNblhcL3dqUDB3PT0iLCJ2YWx1ZSI6IlNaamVSVmFyb3R3UmtlZWMzYjVxTkpXVU1XSWpRNUxJOGFmVjdwQWQrS2ZhMjh2VWlycm9vTEFMN1h5bXRMQjIiLCJtYWMiOiJjOWU0YmFmZmY4MmMwNzcxY2Q5OTlmMjM0N2JmZmViMzc2NGZlYWNhYjc1ZGQxNDRjNTVjMDQzYTcwNmVmNjA2In0%3D; hisi_language=zh-cn; hnol_sid=2I4R95; hnol_visitedfid=77; hnol_myip=989320431; vf29_2132_saltkey=shNHEdoM; vf29_2132_lastvisit=1606484648; vf29_2132_sid=Bm40p5; vf29_2132_lastact=1606488248%09forum.php%09viewthread; lf_read_log=a%3A3%3A%7Bi%3A1502%3Bs%3A29%3A%221502%7C25e03792b1b7e%7C1606488514%22%3Bi%3A193%3Bs%3A28%3A%22193%7C9abaa392fbf20%7C1606495437%22%3Bi%3A62527%3Bs%3A30%3A%2274733%7Cd9236b9292502%7C1606501042%22%3B%7D; ASPSESSIONIDQQRSCSBB=MNHGONCADICFLGNPOLPPDGMM; CAIMOGU=b3810cdab56ae0292a752277a619f706; VgpA_2132_saltkey=iy863TY8; VgpA_2132_lastvisit=1606486253; VgpA_2132_lastact=1606489853%09forum.php%09viewthread; ASPSESSIONIDQSTQCRAA=GPBIONCADCIBPBIANHOOPKPK; PQyu_2132_saltkey=rFA44QdW; PQyu_2132_lastvisit=1606486740; PQyu_2132_lastact=1606490340%09portal.php%09view; log=1; BkGOp9578O_think_template=default; BIGipServerbbs.jianshe99.com_pool=771832586.20480.0000; ff1Z_2132_saltkey=y26zqVqz; ff1Z_2132_lastvisit=1606488292; ff1Z_2132_sid=Kh2zXH; ff1Z_2132_lastact=1606491892%09forum.php%09viewthread; ff1Z_2132_st_p=0%7C1606491892%7Cd342a91eadc3e2d6b4c3ec901218e4f7; ff1Z_2132_viewid=tid_3562; NlQ1_2132_saltkey=VOl3OWAL; NlQ1_2132_lastvisit=1606488293; NlQ1_2132_sid=Ry3gCC; NlQ1_2132_lastact=1606491893%09forum.php%09; sitepath=%2F; liketrue=1; ASPSESSIONIDQQAAQRAB=MICOPFEAEEEDEFKANCGLCAPD; ASPSESSIONIDCCSSAADA=BHCKODAABGOAFALBKNBFJLPD; connect.sid=s%3AIXjwG_EcgHhzgMBVXPZ5WfhSEAZ-dtHs.0mTXACcV2o%2FuoOH9NpzzTdJS5BAxeDndunKkMTQ3HF0; k7N7_2132_saltkey=nBbOFNts; k7N7_2132_lastvisit=1606489208; k7N7_2132_sid=bYJ4ST; k7N7_2132_lastact=1606492808%09plugin.php%09play; lang=en-US; i_like_gitea=bff45bb61badb7d3; view_log=%5B%2225899%22%5D; ASPSESSIONIDQSSTDTBB=EEMCFMGAAALOINDLJOBAINGC; ASPSESSIONIDSSSQCSBB=NFMDEAFADDOAJAGILMDANLHF; h3bc_2132_saltkey=EYtVJ1vv; h3bc_2132_lastvisit=1606490195; h3bc_2132_sid=XbyZYH; h3bc_2132_lastact=1606506195%09forum.php%09viewthread; h3bc_2132_home_readfeed=1606493795; PTCMS_sitetime=20201128; PTCMS_siteids=%7C59%7C; msY0_2132_saltkey=J7qZ375T; msY0_2132_lastvisit=1606490944; msY0_2132_sid=wQkR3t; msY0_2132_lastact=1606494544%09index.php%09viewthread; msY0_2132_st_p=0%7C1606494544%7C3aeac3a37975e7c6dbad8ca6eb2a7f89; msY0_2132_visitedfid=2; msY0_2132_viewid=tid_82; LpCU_2132_saltkey=kFP3yTt5; LpCU_2132_lastvisit=1606490974; LpCU_2132_sid=s8d8s8; LpCU_2132_lastact=1606495227%09forum.php%09viewthread; Izse_2132_saltkey=Cwxz87qW; Izse_2132_lastvisit=1606490979; Izse_2132_sid=OHhHpF; Izse_2132_lastact=1606494579%09forum.php%09forumdisplay; Izse_2132_st_t=0%7C1606494579%7C9cb5975535c84eb95c982cdd5df156e9; Izse_2132_atarget=1; Izse_2132_forum_lastvisit=D_37_1606494579; Izse_2132_visitedfid=37; jgg__Session=iq7rqjhgna1njckci6o4c6qh0j; LpCU_2132_st_p=0%7C1606495227%7Caf4b71b117bdb42a5991fbe17b4c8732; LpCU_2132_visitedfid=49; LpCU_2132_viewid=tid_155588; rh8h_2132_home_diymode=1; Tbx7_2132_saltkey=BpJDFJoG; Tbx7_2132_lastvisit=1606492049; Tbx7_2132_sid=rKk0sJ; Tbx7_2132_lastact=1606495649%09forum.php%09viewthread; Tbx7_2132_st_p=0%7C1606495649%7Ce75cf9a351698a9115c243129ec46dd3; Tbx7_2132_visitedfid=44; Tbx7_2132_viewid=tid_29924; ASPSESSIONIDSCTBDTQC=AOHNJIHANOGJADPAAHAHMALB; php-webapp-yixue=ccce0013640a9a4b87d53fe1380295b4; cPy6_2132_saltkey=Sogi4QAo; cPy6_2132_lastvisit=1606492368; cPy6_2132_lastact=1606495968%09index.php%09viewthread; 83hE_2132_saltkey=Hk515xvN; 83hE_2132_lastvisit=1606492410; 83hE_2132_sid=cPO5Cp; 83hE_2132_lastact=1606496010%09forum.php%09viewthread; 83hE_2132_st_p=0%7C1606496010%7C71e8444c477a276ebe99ab919f8e1aaf; 83hE_2132_visitedfid=85; 83hE_2132_viewid=tid_127243; ls-popup-last-displayed=1606496115; ls-popup-6=1606496115; Gt92iKjo_2132_lastvisit=1606493021; Gt92iKjo_2132_sessionid=1738624685; 56b821f0423b668ae5b1bf0e93e1bf39=e3d8fdb735579ab946dd127060f06a79; cee_last_search=1606496780; 5d6fb81d1f871a290099d01c15e4d68d=23fba07c827a4afc0635c01084a237db0a6d4ed3s%3A17%3A%22%2Ftmyg%2Fl30000-0-1%2F%22%3B; wp_xh_session_656b1c5bd0cd0b9cd1c848e58a897181=8935cdcbdad867ba667a35974c56b5ec%7C%7C1606669798%7C%7C1606666198%7C%7C379af0b5a796435f0ab719c83d3cd8fa; gPq_sid=ZJmAuy; prohistoy=29707xcf; 0ea140c2c86b9610cea52da5bc1e3815=62bsh662cdpm79mjf6rroh1321; 30ababf19f8f902fa2984bc0116cc4d3=en-GB; wp_woocommerce_session_71976ad9e9bb5d3b43108b39738ea966=fc95923285745b3748d02a9b05a44b10%7C%7C1606670394%7C%7C1606666794%7C%7C9b181313bd217d6b1e98ad9303a13bb3; fDLT_2132_saltkey=vzW2Knn2; fDLT_2132_lastvisit=1606494988; fDLT_2132_sid=Oq8rFM; fDLT_2132_lastact=1606502501%09plugin.php%09; fDLT_2132_pc_size_c=0; fDLT_2132_st_p=0%7C1606498588%7Ca4028a56923e83d0a4b33882da72301f; fDLT_2132_visitedfid=36; fDLT_2132_viewid=tid_90; giVK_2132_saltkey=Jw0ygHY8; giVK_2132_lastvisit=1606495107; giVK_2132_lastact=1606498707%09home.php%09space; giVK_2132_home_diymode=1; houseid=think%3A%5B%22518065%22%5D; ASPSESSIONIDACQRABDA=CJJAPDAAFPBDNGGBPMOCJIPE; ASPSESSIONIDCASQBBDB=LNDNODAAFGCEFIMEKOBHDJIC; _gitlab_session=8269f22b9cb3a2e293b43c3596b4f2b1; 5zY4_2132_viewid=tid_448216; _ismobile=0; BAEID=07189CF2DBA5485D2597176F9369291F; comHealthUser=71c8cd60e7694cf7951fc7b82b297a93; hc5Y_2132_saltkey=YlRIl17c; hc5Y_2132_lastvisit=1606498469; hc5Y_2132_sid=q2xKbl; hc5Y_2132_lastact=1606502069%09forum.php%09viewthread; hc5Y_2132_st_p=0%7C1606502069%7C1ae6a4b50b61b45577a1a5a3afa09902; hc5Y_2132_visitedfid=68; hc5Y_2132_viewid=tid_26580; ASPSESSIONIDQQDTAQCS=PMLPLIEAOBMDOKBEEBGBFOIM; rNeI_2132_saltkey=v67YzQYs; rNeI_2132_lastvisit=1606498523; rNeI_2132_sid=q94gsg; rNeI_2132_lastact=1606505201%09forum.php%09viewthread; ASPSESSIONIDACRSDDBB=FAHKODAANDFJOBFBIKKMLPEC; JSESSIONID=1BB94A1A3EA515C546AB19090ADF4AAD; bdRA_2132_saltkey=pVJ50YZ0; bdRA_2132_lastvisit=1606498646; bdRA_2132_sid=sO814P; bdRA_2132_lastact=1606502246%09home.php%09; bdRA_2132_pc_size_c=0; SESSIONID=b56cd354-e895-4b90-8112-3260181ce21a.VXiqClSlrsI1345oGYP5Stnip0Q; ci_session=0hj7les9sj0v96k8nqp30vicibdc3q5i; 6eqL_2132_saltkey=vSoM5sbL; 6eqL_2132_lastvisit=1606499245; 6eqL_2132_sid=NAY4lp; 6eqL_2132_lastact=1606502845%09forum.php%09viewthread; 6eqL_2132_st_p=0%7C1606502845%7C31c9d1608d5032061979a727046ca188; 6eqL_2132_visitedfid=153; 6eqL_2132_viewid=tid_21764; destoon_mobile=touch; ssid=7d634aa95abe254ace7ffa63faae51bf; macid=bafe9ab9d3a79300bdf2a20833d0aeb7; FOOTPRINT=764636; SVYC_2132_saltkey=uJLW6NqL; SVYC_2132_lastvisit=1606499757; SVYC_2132_sid=nBN6FK; SVYC_2132_lastact=1606503357%09forum.php%09viewthread; SVYC_2132_pc_size_c=0; SVYC_2132_st_p=0%7C1606503357%7C7d94db121fc3c24fa47a0c24c421dc95; SVYC_2132_visitedfid=3; SVYC_2132_viewid=tid_58560; ASPSESSIONIDQSRSCTBS=CFGHAKGAHLDOIMBJADKHMDDH; pSIK_2132_saltkey=C0iSHIYX; pSIK_2132_lastvisit=1606500049; pSIK_2132_sid=O5DTeE; pSIK_2132_lastact=1606503649%09plugin.php%09info; ASPSESSIONIDCCQQAACA=ONIOODAALGNJCCIFGPJMLEPP; userid=465403; password=4cdb4b7bf2e06f6a5fc6e19eae243277; username=hjnjyy; 9m75_2132_saltkey=Yv4VONhA; 9m75_2132_lastvisit=1606500662; 9m75_2132_sid=u52GJ9; 9m75_2132_lastact=1606504262%09forum.php%09forumdisplay; 9m75_2132_st_t=0%7C1606504262%7Cf33337c421261e8fb050992ad8636925; 9m75_2132_forum_lastvisit=D_365_1606504262; 9m75_2132_visitedfid=365; id=318289; TNpt_2132_saltkey=XzaA2gG8; TNpt_2132_lastvisit=1606500714; TNpt_2132_lastact=1606504314%09forum.php%09viewthread; TNpt_2132_st_p=0%7C1606504314%7C71f45c7a01d1cac37ca8eedb6a124e0c; TNpt_2132_visitedfid=37; TNpt_2132_viewid=tid_11024; h3bc_2132_st_p=0%7C1606506195%7C63cc4a72c0e91199096adb0cedb1edad; h3bc_2132_viewid=tid_13312',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'dialog=1' => '',
+  'ids' => '478',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003947s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ VIEW ] /www/wwwroot/lehai.saifer.club/test/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001707s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-28T05:15:00+08:00 ] 101.89.19.140 GET lehai.saifer.club/admin/calorie/calorie_product?addtabs%3D1
+[运行时间：0.166417s] [吞吐率：6.01req/s] [内存消耗：2,904.29kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005771s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000996s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'calorie.calorie_product',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'q-sub-business' => 'contentsecurity',
+  'host' => 'lehai.saifer.club',
+  'cookie' => 'security_session_verify=540ef9da548bd65b2e8a80011516095d; PHPSESSID=05c0c971af223b208aa3adf2905ea3f9; mobile=false; user-agent=951e9799996f7b7ddeeb48b39f666291; think_template=default; ecology_JSessionid=aaaKUrkhPUHpphYOIheyx; beegosessionID=85cf75b4f16acb40c1c3e60dd4dcfe42; JSESSIONID=D4B6A1A51C614C47A8144053AB4F6C9B; IPLOC=CN3100; G1gn_2132_saltkey=MJwwcMse; G1gn_2132_lastvisit=1606506278; G1gn_2132_sid=cqe8Fz; G1gn_2132_lastact=1606511037%09forum.php%09viewthread; G1gn_2132_st_p=0%7C1606511037%7Ca482cd4e988ef91154993e3f5ca6f20d; G1gn_2132_viewid=tid_1736330; s_n_lang=zh_CN; ASP.NET_SessionId=qxv1m0bge03hnepsikcqnckx; destoon_mobile=touch; _csrf-frontend=2a07ae085b9ebf5e5ec714b28e78447db80b5bb1a727d2f2c1a86430752d8308a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22QOTLFSiXkXFpX26kXcy3r1E4FrNv2swN%22%3B%7D; __jsluid_h=3f353ae608a0dfa1b65bcf7217c8aeae; site_r=clearTimeout%28AT%29%3BresponsiveImage%3Dfunction%28el%29%7Bel%3Del%3Fel%3A%27body%27%3B%24%28%27img.responsiveImage%27%2C%24%28el%29%29.responsiveImage%28%29%3B%7D%3B; USR=yvqqvm11%090%091606509966%09http%3A%2F%2Fm.yahui.cc%2Fedu%2Fbond%2F1785102-1.htm; rNeI_2132_saltkey=UYu9uK93; rNeI_2132_lastvisit=1606506375; rNeI_2132_sid=Tzt89t; rNeI_2132_lastact=1606509975%09forum.php%09forumdisplay; fikker-0QIU-v7tW=2qX9vgf5VQJEdqX5p5KQTWh7tyZ9bGV7; 71Ge_2132_saltkey=Nyzd8gSb; 71Ge_2132_lastvisit=1606506383; 71Ge_2132_sid=Ed97O9; 71Ge_2132_lastact=1606509983%09index.php%09space; ECS_ID=4879986ac3515dc7473d70288c69e3646be8b05d; ZDEDebuggerPresent="php,phtml,php3"; YXV3_2132_saltkey=AzYiHgqV; YXV3_2132_lastvisit=1606506450; YXV3_2132_sid=Q1839v; YXV3_2132_lastact=1606510050%09forum.php%09viewthread; YXV3_2132_pc_size_c=0; YXV3_2132_st_p=0%7C1606510050%7C3b150560ec52f10c92560efd684ab595; YXV3_2132_visitedfid=54; YXV3_2132_viewid=tid_4674; qrcodeKey=NTY0NmY2MzYyNzE3NTdjNjU3NzYxNjYzNTMwMzAzMTM1MzYzMDM2MzEzMTYxMzYzNzM%3D; User-Realip=101.89.19.140; ASPSESSIONIDASCQSATS=BAIDMCLALCLLJJKKNHADBKBP; _d_id=92862d40a71abdd56409735f44f39c; _session=eyJpdiI6IlpudkE1SnpqemZPbDBid0Z2UGpvTUE9PSIsInZhbHVlIjoiUk16Zzc5WWM5a1huSFFNYjF5cU9XYzFqOE4xWlpWaEowVGNXWE0xOW5RR3pWOTJEOGFxS1hYSTJhb21BNW1LSTVQUnNnRERRbEtcL3ppQlZJTjJcL3pUZz09IiwibWFjIjoiNTk0ZThiM2EzOGRhODVlZmJhMDA4Y2ExMTMyOTY5YTYzYWQ5Njk0NGExMTRkYzAwZjk1ZDdiZDhiYjZjYTdjYSJ9; first_entry=eyJpdiI6Ijk1dFJKNlZyd0NpdkJSSEdUNFFqOFE9PSIsInZhbHVlIjoiVjRiSUhZTk84NGp2Nm1qM2gyanE0WGNhY3Q1NSs1ZThYY05QdGlIeWx5ZnlhYnpRZFNxeGtGYm9TVjlOOGlXanNxWlJ6NmdPR0lZTWxDeEsxMU1HaWc9PSIsIm1hYyI6IjU2NDAxMDE0MTVmYTk3NTMyZDViM2VhY2IyMjgzMjc2MTU2OWVhZDdkZjA0MDRiYjU3Mjk0NDIzNTdiOGU5MDgifQ%3D%3D; ASPSESSIONIDCCTSAASC=KBIAKEKAHNAMOGKHANBCKDEN; ASPSESSIONIDSACSQQQD=MNFGOALAFNEHFBIGDDOEEKMF; SID=d7758b0da8f9d4b289903e1e9733f917; ASPSESSIONIDSQDBSBRD=HEHMFEAABBNNLEHIGAGHHHLG; ASPSESSIONIDQSRCQRBA=MLPDIIHABLHFGKEFBPELPFCB; pJML_2132_saltkey=ChcFZZe7; pJML_2132_lastvisit=1606506844; pJML_2132_sid=eQvQsr; pJML_2132_lastact=1606510444%09forum.php%09viewthread; pJML_2132_pc_size_c=0; pJML_2132_st_p=0%7C1606510444%7C1137059df3e796438190df6a0914aa5d; pJML_2132_visitedfid=53; pJML_2132_viewid=tid_10; ASPSESSIONIDSSBTRRDT=INOJKGCAHCKFFPKPIEECOBFL; articlevisited=1; mid=4Qv3Xg; IU0q_2132_saltkey=dP6rF6lr; IU0q_2132_lastvisit=1606506883; IU0q_2132_sid=ha00Zg; IU0q_2132_lastact=1606510483%09forum.php%09forumdisplay; IU0q_2132_st_t=0%7C1606510483%7Cb55c7c11b55fa5c59ee3c33fe95ec855; IU0q_2132_forum_lastvisit=D_39_1606510483; IU0q_2132_visitedfid=39; BIGipServerfor68_java_pool=2818626314.20480.0000; whatsnssid=d7bcf85d169a4987; ASPSESSIONIDQCBQSRTS=AAAIJPJANCFBJALJOMAMGKHN; bh_myaction=Tutor%2Findex%2Fs%2F1%2Farea%2F417%2Fg%2F7%2Fpre%2F10001%2Fsub%2F6; og2_sid=1wtx9w; og2_oldtopics=D202809D; ciw_lastvisit=11ccN9YgLg-P--P-zmK6L0nCwqq8rLLNydOrl8B82JD3KUxngv6u7DldRD52; ciw_city=286%7Chttp%3A%2F%2Fpzh.watchfang.com%2F; cf0_lastvisit=SS05WGRQVTlAcGMGQSlWMgo%2BeR0; ASPSESSIONIDSSRTDSRS=HIPLODLAPIOHLBHKGAJADGCF; QoFn_2132_saltkey=OpMeW6PO; QoFn_2132_lastvisit=1606507083; QoFn_2132_sid=TZ0zoa; QoFn_2132_lastact=1606510683%09plugin.php%09; ABTEST=5|1606510868|v1; iE1f_2132_saltkey=h8SZN851; iE1f_2132_lastvisit=1606507280; iE1f_2132_sid=CkGOKo; iE1f_2132_lastact=1606510880%09home.php%09; iE1f_2132_home_readfeed=1606510880; app_cook=server1; PTCMS_history=4224%2C161; LEHEHE=c81bceff5268c8f93ce89f787724e0a9; IPISP=ISP; language=%E4%B8%AD%E6%96%87; ASPSESSIONIDASSSDATA=DOGAHCLACPBENMDMLLCNMHIN; InitSiteID=61472; SiteType=1; IsDefaultLang=1; WUserID=15353441087927; Lang=cn; yz_site=isSite; ASPSESSIONIDSQACRQBT=PPPKIMPDDAOIMMLGDEHMPDEF; youdianinfo_historycn=9818; ASPSESSIONIDCCBASTRQ=HDIBCELAJBOANHBOJLOOKMNP; id=77586; vds=gaSLgIJoMtXOHQqIWyvtXGZoHNWbJbzQqnkNpnFbpOHipOzmXQFGpoqmKnFE; shop_id=8005630; lastfid=0; lastvisit=0%091606511358%09%2Fread.php%3Ftid%3D502159%26page%3D%26fpage%3D%26otherref%3D-authorid-724966%26; ol_offset=9506; fikker-QRA2-wBAT=JnJ0yT3N7tk8arARuOoP3XUHkHKVAfNr; waf_cookie=12434a6a-f2a2-44efbc0706ae3fb54222695fddf44bb2b17e; tgw_l7_route=5a096a696e9b1cc4326c1645e58fa9b8; XSRF-TOKEN=eyJpdiI6Ing2XC9kZG1MMDc1Z1BtbTlBcUl6M3JRPT0iLCJ2YWx1ZSI6IjkzcFNhU0RVRzVZcEFyT3FBMVdJTTljOVdpNjlpUW5QNUZJajdFZGtqc3RVZnlzZWh6OWVPRVY4N3I2M2kzclJWTEFRTWtkZEtOUTBmZXltTlF0dU9IZUdUWDRabGduN3R6aUpqMzBBTTZBYmRQUGlPaGYxcWU4d1BqVnV4RnRqIiwibWFjIjoiZjA0MThiZWEyMWFiMjFjMjZiYmI2MGQ0ZmQ4ZGNjYTk3MjcwZjM1OTU4YjQzOTQ3ZjdmMmM0NGUwMjAzZWE2ZiJ9; laravel_session=eyJpdiI6IkZcLzBNcXRDb0xKK3pSSTBhNzRFRkt3PT0iLCJ2YWx1ZSI6InJ6UXB0d0FsVDRIQmNpZFJSUFJJdG5taW5TMlVBd3pZRmJYcUs5MlhOVFRGY3A3c1J2K0JYU0xIY1hTcktlemp5eSsrNDhyeVpLT3FYcGF0SjVTU05kMjhBbmswb0h3eDExeFpEZ0p4OXBNc2VaS2hVSGtjRUJ6c1l4Z0dXTFlqIiwibWFjIjoiMWJjNDQwN2RkNjU3OGZhZWU2Y2I2ZTMxYzBkMzk4YmU3ZWFhYTMxMThlZjFkZjk0YjYxYzQyODMwNjBkZWUxMSJ9; ci_session=qm56k5dlh38bnqfestust5jvnlo2mccu; ASPSESSIONIDSSSRTRQA=ICINFHJAGBNGAPEDNDCIHOID; ASPSESSIONIDSABCBQCS=IJBFAHIAPCCDFFGFEAHFDHPB; ASPSESSIONIDCASQDDSS=MMCAKMHAGBHGHAGCLKMNNHAE; ajDy_2132_saltkey=s4S3CwCT; ajDy_2132_lastvisit=1606508021; ajDy_2132_sid=USgB7V; ajDy_2132_lastact=1606511621%09portal.php%09view; HFS_SID_=0.31905370648019',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs=1' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003036s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ VIEW ] /www/wwwroot/lehai.saifer.club/test/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001960s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-28T05:54:36+08:00 ] 220.194.106.61 GET lehai.saifer.club/admin/general/config?addtabs%3D1
+[运行时间：0.093201s] [吞吐率：10.73req/s] [内存消耗：2,924.45kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001301s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000996s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'general.config',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'q-sub-business' => 'contentsecurity',
+  'host' => 'lehai.saifer.club',
+  'cookie' => 'fikker-QRA2-wBAT=JnJ0yT3N7tk8arARuOoP3XUHkHKVAfNr; XSRF-TOKEN=eyJpdiI6IlhXbnZzU3NpY1JpcURGc1M0WXRvRUE9PSIsInZhbHVlIjoiVWl1amdod21hN3BMNlE3b0dzRlEwandMWVcyd3p5clZrbFIwaEZINmJGNE9ZRlwvOEVhOENXa0krMHlqWEVrWUMiLCJtYWMiOiI4YmVkMzc0N2QxNDllOTkyZmNkNWMwYmFhNGNhNzYyNzA0NmNkOTMwZWRhMTI1YmRkN2VlZGYxMGM1NzIwZDdkIn0%3D; laravel_session=eyJpdiI6IlNoM3BtdytTQys1dFZSN0NzTVdBU2c9PSIsInZhbHVlIjoieW9wbjhja1VtU2tSVitQa2J4MGRTWUM3cWdIcHhXSGZma2t4aVZkdXI1VVNRMUMzV0lYTThQb1ZLOGhLMmcwcSIsIm1hYyI6IjZiM2U0N2Q0M2JlZmM0OWJkNDU0MjA5ZjdkYWNhOGRlY2NlZTRmMDBiYzdhOTEzZjEyOTZjZTNkYjY2MDAyMmQifQ%3D%3D; PHPSESSID=quc213s2vfdg05ejp1jap0jlk6; ABTEST=2|1606513747|v1; tgw_l7_route=7a3b5e35664bcb9b34e8b8e8ba155169; stb_csrf_cookie=1f897a28db9dc265c18e4b637e02dfd2; stb_session=ewz16qzB6zctHgsgipW2FXzIDw8pbBoh4ZCcHv%2FWAcwfF1sinIdA6szUc2pmCoZPDJVjh21ldtgYzn86nZMLgy3sNAZGESeXM9zj%2BMpXgM1UfPIw0%2BEXf%2BS%2Fc0G%2F3EYovL5LBiANALjyE7j%2FVcu8LCkS6j3yANgZUAT2L8B7nmfy%2BtUCqfv9V03uQaPab1WDc4n3MxImiveHYy9qI2WQtJv6Z%2BHaN1zS1t2zB4N1iv754ILjqDJYfH%2BrfVACGA%2BSdHCnsOpEMqS0EpL4t%2FwevEYmdWsir3GDEVd939bq4cn9jy5LJgNP2vSWs4xrOEE%2BhdaLGpmxjgsrSSwEJgBHd%2B%2FLOwbbV78EVOdBLhZMbrN18LmxaPPLTIzTngq48Ly2A%2BH5mhFfLTVG17VAIVQqG8tvSIZTEXhdExdhpM2ugAw%3D; shop_id=8003036; is_not_first=0; VisitShopStr=shop%3A0; X_CACHE_KEY=63e0292902459a91d944493d2b5a3e8b; _d_id=9f8812ccaefa4328d509735f44f391; ZDEDebuggerPresent="php,phtml,php3"; PHPSESSION=b3bea3u7viv1ptt7ut51bh2vm0; ASPSESSIONIDQQRSCQRT=JAJLNILAEPGAFHNMFIBAGFMM; uuid=rBEADl/BdLF2Jx49AxszAg==; JSESSIONID=7C8B5727371B2A457BEF12BA00DD8132; __jsluid_h=8e8dd925c92296b0f9a79dfa42c10499; ASPSESSIONIDQCBSDBBA=AKLBHGHALAACBKCJIOPONMKE; ASP.NET_SessionId=sribfakg1bkrnscvjb5ukuew; ulevelname=%25E5%2588%259D%25E7%25BA%25A7%25E4%25BC%259A%25E5%2591%2598; is_mobile=0; ASPSESSIONIDAQDTSBAT=FMONKHIANHNBHLBNFGKMGJJC; yunsuo_session_verify=66410285bd381cb0460542a9f00b233c; ASPSESSIONIDCCTSAASC=CMELKEKADDGOGDHCFIKJCLCO; mid=H6Ixzx; ASPSESSIONIDSQTQBTTR=LGCIEJLADDKBEOKPGJENOHAE; IPLOC=CN1200; IPISP=ISP; kuxin_history=1116%2C2237; d2d977c58444271d9c780187e93f80e5=think%3A%7B%22verify_code%22%3A%22c4e6a1ec29577177489fb8f3fc258b0b%22%2C%22verify_time%22%3A%221606514008%22%7D; ASPSESSIONIDCACSQCCC=EJFJFPJAFODCKPFFMJHAEKFB; ASPSESSIONIDSSSTAQRR=GGLFAKLAODIFKKFJKFINPOHL; InitSiteID=77250; SiteType=1; IsDefaultLang=1; WUserID=15929649520554; Lang=cn; G1gn_2132_saltkey=rGN6hGSZ; G1gn_2132_lastvisit=1606510444; G1gn_2132_sid=jwCPoZ; G1gn_2132_lastact=1606514044%09forum.php%09viewthread; G1gn_2132_st_p=0%7C1606514044%7C988cc2324b9e2bc65e67f4c6b412013b; G1gn_2132_viewid=tid_1730193; ASPSESSIONIDAQASRBAT=MMNDANHAJGCIAGMEDGNKPPJO; xmplp_session=eyJpdiI6IjRWRWRlN0xrSG9RUlU2dWlGQlZVTkE9PSIsInZhbHVlIjoiZm9UZk55RWhSZ0ppK3JTRUdRcXRKbzBkQ2E4SVprblcrSHVEWjZ3bkJDN2l3dlRmOVRRM3JscE9ucTI1YnNXN1RyVHBkcm1UdDBKQU15bmcyRmllWlE9PSIsIm1hYyI6IjcxNDk0NzRmMDJlMTkyNmQzYWI0ODMzOTg1N2E5NjNmOWQ0MDhlOTA1ZDM0Njc4YTFlNWE4NjQyNGM5NDE2MDAifQ%3D%3D; lang=en-US; i_like_gogs=6a0da12f7d7f2663; _csrf=bjR9Kk6lgAUimAbWUMNfdv43n7I6MTYwNjUxNDA2NDgzMTEwMTUxOA%3D%3D; fikker-0QIU-v7tW=2qX9vgf5VQJEdqX5p5KQTWh7tyZ9bGV7; Hm_lpvt_d2eddf9b155bdbd9ea015490aef570fa=1606514067; Hm_lvt_d2eddf9b155bdbd9ea015490aef570fa=1606514067',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs=1' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001423s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ VIEW ] /www/wwwroot/lehai.saifer.club/test/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000174s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-28T06:48:07+08:00 ] 183.192.179.16 GET lehai.saifer.club/admin/general/attachment?addtabs%3D1
+[运行时间：0.052607s] [吞吐率：19.01req/s] [内存消耗：2,888.71kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001757s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000375s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'general.attachment',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'q-sub-business' => 'contentsecurity',
+  'host' => 'lehai.saifer.club',
+  'cookie' => 'PHPSESSID=js7g3o8d3t0qkn74re0u6ico27; ZDEDebuggerPresent="php,phtml,php3"; 1KEj_2132_saltkey=ycAe2CC9; 1KEj_2132_lastvisit=1606513665; 1KEj_2132_sid=Z0eXX2; Vis=2db413ec0a034efd9170a4f34cbad3a2; IPLOC=CN3100',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs=1' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002055s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ VIEW ] /www/wwwroot/lehai.saifer.club/test/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000238s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-28T06:52:30+08:00 ] 183.192.179.16 GET lehai.saifer.club/admin/user/user?addtabs%3D1
+[运行时间：0.042027s] [吞吐率：23.79req/s] [内存消耗：2,892.19kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001310s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000283s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user.user',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'q-sub-business' => 'contentsecurity',
+  'host' => 'lehai.saifer.club',
+  'cookie' => 'vds=gawZLcbeIlwfNTbuQdGltYnrmYnZtDnuaDwdEZyDGuodnlIrIxnlOZocGeEx; IPLOC=CN3100; JSESSIONID=50F1DCB75A6C0F41956A52043491E59C; PHPSESSID=ef196ji99d437mtrhmsol12g47; think_template=default; rnRp_2132_saltkey=NZLHrNAb; rnRp_2132_lastvisit=1606513764; rnRp_2132_sid=jnBM7j; rnRp_2132_lastact=1606517364%09portal.php%09view; IPISP=ISP; security_session_verify=d5b03cb8101e556e6be07faffebb0f0b; user_sid=af1dd2b9b9; kbtm23=402; ASP.NET_SessionId=tiwzuw1nbbstb0ne0gsiqm0d; BcZV_2132_saltkey=SX0jJZXg; BcZV_2132_lastvisit=1606513840; BcZV_2132_sid=K0DN01; BcZV_2132_lastact=1606517440%09forum.php%09viewthread; BcZV_2132_st_p=0%7C1606517440%7C1e4e941a7aa7aaee4b9b976fe167ea5a; BcZV_2132_visitedfid=95; BcZV_2132_viewid=tid_31902; ASPSESSIONIDQQRQDQQS=HFGNDAMAKHPPPBKCEFALKFDP; ASPSESSIONIDSQTRDRTT=FFMHKPLALHEENOONLMGDBHFC; XSRF-TOKEN=eyJpdiI6IlpJMExGV0IzS2ZLQlwvZ2UrZ0RoNEZRPT0iLCJ2YWx1ZSI6IlI0cWU0eWNVcmFhUkNmVytmbWVja3VwdHczNGVSRUJaMElLdDN0SHpcL0VRZjBSZkFBSGJCK3Y0cUNLRUdEY0NmSmpOcm15RDIwMjhNTnNhNGZjQ0dMUT09IiwibWFjIjoiMDZhODVlMThmYjk2NTk3MjE3YTlmMWE3NTYwMmZjYTliZTlhOWQ4MmExYjI3NmNkMDAwMGJlMjdmMjRjMGM1NyJ9; laravel_session=eyJpdiI6InJZXC9KdGprVklVWUlRcldSV0M0YlRRPT0iLCJ2YWx1ZSI6IjNGYVZYeHdlem03dkUwd0dCUnRoczNTaXRXNzRBV1oxWjZuOHA5VEFLb25menBScnZ5ZTVuMkh5N3hzQUxpZVRTRmFTdmtsa0hldG5TUEFFcFwvcnBQQT09IiwibWFjIjoiZDk2YmQ1NmJmZWI0YjQyZjVlNmFlZmYzZTAxNDIwY2NjY2IzYzQwZTczODMwMzBiN2RjNmFiYTg2NWQxZWJlMiJ9; BT_PANEL_6=f356a859-e9a2-4acf-8dc7-30a00f8878bf.Juuvim-pR3Or3DLDYgXyzYkMWqk; cityInfo=think%3A%7B%22id%22%3A%2266%22%2C%22name%22%3A%22%25E6%2583%25A0%25E5%25B7%259E%22%2C%22lng%22%3A%22114.4235580165817%22%2C%22lat%22%3A%2223.116358854725593%22%2C%22domain%22%3A%22www%22%2C%22seo_title%22%3A%22%25E6%2583%25A0%25E5%25B7%259E%25E6%2588%25BF%25E4%25BA%25A7_%25E6%2583%25A0%25E5%25B7%259E%25E5%25A4%25A7%25E4%25BA%259A%25E6%25B9%25BE%25E6%25A5%25BC%25E7%259B%2598%25E7%25B2%25BE%25E9%2580%2589%25E5%25B9%25B3%25E5%258F%25B0%25E4%25B9%25B0%25E5%25A5%25BD%25E6%2588%25BF%25E4%25B8%258A%25E6%2596%25B0%25E6%2588%25BF%25E5%25AE%259D%22%2C%22seo_keys%22%3A%22%25E6%2583%25A0%25E5%25B7%259E%25E6%2588%25BF%25E4%25BA%25A7%252C%25E6%2583%25A0%25E5%25B7%259E%25E6%25A5%25BC%25E7%259B%2598%252C%25E6%2583%25A0%25E5%25B7%259E%25E6%2588%25BF%25E4%25BB%25B7%252C%25E5%25A4%25A7%25E4%25BA%259A%25E6%25B9%25BE%25E6%25A5%25BC%25E7%259B%2598%252C%25E5%25A4%25A7%25E4%25BA%259A%25E6%25B9%25BE%25E6%2588%25BF%25E4%25BB%25B7%252C%25E5%25A4%25A7%25E4%25BA%259A%25E6%25B9%25BE%25E6%2588%25BF%25E4%25BA%25A7%22%2C%22seo_desc%22%3A%22%25E6%2596%25B0%25E6%2588%25BF%25E5%25AE%259D%25E6%2588%25BF%25E4%25BA%25A7%25E7%25BD%2591%25E6%2598%25AF%25E6%2583%25A0%25E5%25B7%259E%25E5%25A4%25A7%25E4%25BA%259A%25E6%25B9%25BE%25E4%25B9%25B0%25E6%2588%25BF%25E7%25B2%25BE%25E9%2580%2589%25E5%25B9%25B3%25E5%258F%25B0%252C%25E6%25A5%25BC%25E7%259B%2598%25E6%2588%25BF%25E6%25BA%2590%25E5%2585%25A8%25E9%259D%25A2%25E3%2580%2581%25E6%2588%25BF%25E4%25BB%25B7%25E7%259C%259F%25E5%25AE%259E%25E5%258F%25AF%25E9%259D%25A0%252C%25E4%25B8%25BA%25E6%2582%25A8%25E6%258F%2590%25E4%25BE%259B%25E6%2583%25A0%25E5%25B7%259E%25E6%2588%25BF%25E4%25BA%25A7%25E3%2580%2581%25E6%2583%25A0%25E5%25B7%259E%25E6%25A5%25BC%25E7%259B%2598%25E3%2580%2581%25E6%2583%25A0%25E5%25B7%259E%25E6%2588%25BF%25E4%25BB%25B7%25E8%25B5%25B0%25E5%258A%25BF%25E4%25BB%25A5%25E5%258F%258A%25E4%25B8%2593%25E4%25B8%259A%25E7%259A%2584%25E6%2583%25A0%25E5%25B7%259E%25E5%25A4%25A7%25E4%25BA%259A%25E6%25B9%25BE%25E6%2588%25BF%25E5%259C%25B0%25E4%25BA%25A7%25E4%25BF%25A1%25E6%2581%25AF%25E5%2588%2586%25E6%259E%2590%25E7%25AD%2589%25E6%259C%2580%25E6%2596%25B0%25E6%25A5%25BC%25E7%259B%2598%25E8%25B5%2584%25E8%25AE%25AF%25E3%2580%2582%22%7D; abc=test',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs=1' => '',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001322s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ VIEW ] /www/wwwroot/lehai.saifer.club/test/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000169s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-28T07:52:30+08:00 ] 220.194.106.61 GET lehai.saifer.club/admin/calorie/calorie_type/edit/ids/9?dialog%3D1
+[运行时间：0.043072s] [吞吐率：23.22req/s] [内存消耗：2,904.73kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000036s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001420s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000300s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'calorie.calorie_type',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0',
+  'q-sub-business' => 'contentsecurity',
+  'host' => 'lehai.saifer.club',
+  'cookie' => 'JSESSIONID=F2415C97621EE645CE900730C11EFAFA; mid=o65wLa; PHPSESSID=glafl5nnccvpunag8ottvrnidc; 575b34ef9881107266c7f52a91e952b1=cpqomg1uucqdqe2gfg4vmjpnm0; beegosessionID=393dff3c6f5db8408f57e733c3198ace; ASP.NET_SessionId=crsxfki112hqiypuxljy0muh; SID=4221e59c9664dd64f4afd712c4cdb1b1; lDlf_2132_saltkey=BnkInxOT; lDlf_2132_lastvisit=1606516995; lDlf_2132_sid=JEdIeZ; lDlf_2132_lastact=1606520595%09forum.php%09viewthread; lDlf_2132_pc_size_c=0; lDlf_2132_st_p=0%7C1606520595%7C9b7578a438cfc21a091d2df70db67d43; lDlf_2132_visitedfid=36; lDlf_2132_viewid=tid_60395; __jsluid_h=9edef86fd09dd865f01f22327a84e0e9; Kgqc_2132_saltkey=O7aL25G9; Kgqc_2132_lastvisit=1606517007; Kgqc_2132_sid=hGpX7c; Kgqc_2132_lastact=1606520607%09forum.php%09viewthread; Kgqc_2132_st_p=0%7C1606520607%7C697fa92e8765a42643c05ed4cb41c8a6; Kgqc_2132_visitedfid=38; Kgqc_2132_viewid=tid_2341; lf___forward__=%2Fbook%2F32571%2Fe5ceb8ac54465.html; lf_read_log=a%3A1%3A%7Bi%3A32571%3Bs%3A30%3A%2232571%7Ce5ceb8ac54465%7C1606520649%22%3B%7D; PTCMS_history=8487%2C298; acw_tc=7819730616065206578984917ec6d16c77875534b0a9fa5d730f1c403a0fb6; IPLOC=CN1200; qrcodeKey=NTY0NmY2MzYyNzE3NTdjNjU3NzYxNjUzNzM2MzAzMjM1MzYzMDM2MzEzMTYwMzAzODM%3D; security_session_verify=49e8be9d4de813e070c4951ceed7600a; hmf_search_engine=e30=; ASPSESSIONIDASCTTCTR=ILGHEHMAFIEOJNEJMFPEGGPM; xmplp_session=eyJpdiI6IjJYeTk3eklXYXRRbTFkTkxqUU82Nnc9PSIsInZhbHVlIjoic211Y3VxTkUrcVwvVXdHcGI3aGNGRTl3UjhVa1paVWNwU1RUWnRBdXZKU21NdXdwbjlkMUdtU2dFZGVNUjczc1c2VU1kVVFKVDhjSHMyem81WnhERUZ3PT0iLCJtYWMiOiI3YWYxNmYwNDRiMzlkYjc3YTIyZDcyZmMzZmM2MDJhMGU5NGY4NGFlYzBiZjdmNzU0ZDcwODFjZDc2YjYwMmRkIn0%3D; ecology_JSessionid=aaaFxXHX0RZBW-EceY1xx; whatsnssid=25ac065b9401071f; XSRF-TOKEN=eyJpdiI6IkpGQjZzWTBUK1FPalE4aXlmcmdJYnc9PSIsInZhbHVlIjoieHp3OVhoTnd1TVVcL3FiMzl2TTdZbnJnUHAzdzlFcFE4Q1lBWlYwYVdlXC81WlpMbVJIVWpCSzBOUG15WW55cGI2R3JoQmM5bklXeFBVZmJWTmFLMnR0QT09IiwibWFjIjoiYmIxYzM3YmI0YWNmMTljM2QyZmJlMWNiZDVjNDUwMzQxZmI0NWYyN2FmYzNiOTBmMmJmNzU2YWEzZjY2YTdjOCJ9; laravel_session=eyJpdiI6IlUyMkFyNXhkaG9oaEFxdE1aR012QWc9PSIsInZhbHVlIjoiMHNcLzI2ZDlmbW9BVjFGSDh6akdSKytUOFdJOXFVYzZsU241M0NhZXlxXC8wSDEwQ3pnOGxVUHY5cWtBT0V0M1BRNERcL29JZ2xwR0UwWXB4SXRkQXNOaGc9PSIsIm1hYyI6IjkxOWY3MmUwZjYyMjYxZGI2M2UzNGQ1OWQ2MmI3NzhhZTM1YjdhMzc5ZTc4YmQyMThhMjBkYTQwZTc3ODgyOTUifQ%3D%3D; lastfid=0; lastvisit=0%091606520730%09%2Fread.php%3Ftid%3D320581%26page%3D%26fpage%3D%26otherref%3D-authorid-146828%26; ol_offset=1455; egwP_2132_saltkey=6P29zGlQ; egwP_2132_lastvisit=1606517130; egwP_2132_lastact=1606520730%09home.php%09space; ZDEDebuggerPresent="php,phtml,php3"; SESSIONID=2d5df69f-cac0-4ab1-9030-a349f744e3a5.l3yL76z70BkwsB_xA83b-6Vuu9g; kuxin_history=1%2C133; package_code=P0005868; waf_cookie=fdab447a-bfa0-4db994adb9ad0cd5d1b98eb10407e688deab; PvKl_2132_saltkey=h1f14s0b; PvKl_2132_lastvisit=1606517268; PvKl_2132_sid=dfJtLX; PvKl_2132_lastact=1606520868%09forum.php%09viewthread; PvKl_2132_st_p=0%7C1606520868%7C3d68f7bd42b7b2dab6a92c7add6cdeec; PvKl_2132_visitedfid=2037; PvKl_2132_viewid=tid_54049; tDuu_2132_saltkey=h98cZ4GR; tDuu_2132_lastvisit=1606517275; tDuu_2132_sid=Wcnug1; tDuu_2132_lastact=1606520875%09home.php%09; tDuu_2132_home_readfeed=1606520875; shop_id=8008657; _d_id=69f189ccaefa4365d809735f44f367; X_CACHE_KEY=dbc6c889655821becae9f32c5e638fc5; 7yTZ_2132_saltkey=K596E725; 7yTZ_2132_lastvisit=1606517304; 7yTZ_2132_sid=aLoZKG; 7yTZ_2132_lastact=1606520904%09home.php%09; 7yTZ_2132_home_readfeed=1606520904; XLjG_2132_saltkey=CU43qq5f; XLjG_2132_lastvisit=1606517312; XLjG_2132_sid=nrTAXG; XLjG_2132_lastact=1606520912%09forum.php%09viewthread; XLjG_2132_st_p=0%7C1606520912%7Cfd58716fea2770f85eb65a32f5244407; XLjG_2132_visitedfid=99; XLjG_2132_viewid=tid_201129; route=5bc2644593854ed043a984f343cc13c1; tgw_l7_route=f3d9b7256f017547f95a25a4a4e8c68b; BIGipServerpool_m.med66.com=738278154.20480.0000; is_not_first=0; item_list_page8008657=0; fikker-0QIU-v7tW=2qX9vgf5VQJEdqX5p5KQTWh7tyZ9bGV7; IPISP=ISP; session=7e93e205-f624-498e-972e-86e463b294c2; dujiaUserToken=f18f672a-6b19-41d9-a423-024feca830ce; dj_current_src=%7B%22CityId%22%3A%22321%22%2C%22CityArea%22%3A%22%E5%8D%8E%E4%B8%9C%22%2C%22CityName%22%3A%22%E4%B8%8A%E6%B5%B7%22%2C%22FullPinyinName%22%3A%22shanghai%22%2C%22FirstZiMu%22%3A%22S%22%2C%22ProvinceId%22%3A%2225%22%2C%22ProvinceName%22%3A%22%E4%B8%8A%E6%B5%B7%22%2C%22ShortPy%22%3A%22sh%22%2C%22TcShortPy%22%3A%22sh%22%7D; VID=ac8f99b98103496587d48fe3e363d328',
+  'accept-encoding' => 'gzip',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'dialog=1' => '',
+  'ids' => '9',
+)
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001472s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'expire' => 2592000,
+)
+[ info ] [ VIEW ] /www/wwwroot/lehai.saifer.club/test/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000180s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-28T21:21:26+08:00 ] 58.247.212.239 GET lehai.saifer.club/
+[运行时间：0.206797s] [吞吐率：4.84req/s] [内存消耗：2,091.63kb] [文件加载：110]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.038280s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.002446s ]
+[ info ] [ LOG ] INIT File

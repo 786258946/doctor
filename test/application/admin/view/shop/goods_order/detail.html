@@ -1,0 +1,100 @@
+<table class="table table-striped">
+	<thead>
+	<tr>
+
+	</tr>
+	</thead>
+	<tbody>
+	<h2>订单信息</h2>
+	{volist name="other_info" id="vo"  }
+	<tr>
+		<td>{:__($key)}</td>
+		<td style="word-break: break-all;">
+			{if condition="(($key eq 'refundtime')||($key eq 'createtime')||($key eq 'paytime')||($key eq 'recivetime'))&&!empty($vo)"}
+			{$vo|date="Y-m-d H:i:s",###}
+			{elseif condition="$key eq 'state'"}
+				{switch name="$vo" }
+					{case value="0"}未支付{/case}
+					{case value="1"}已完成{/case}
+					{case value="2"}待发货{/case}
+					{case value="3"}待收货{/case}
+					{case value="4"}已退款{/case}
+				{/switch}
+			{else/}
+			{$vo}
+			{/if}
+
+		</td>
+	</tr>
+	{/volist}
+
+	</tbody>
+</table>
+
+<h2>收货信息</h2>
+<table class="table table-striped">
+
+	<tbody>
+
+	{volist name="address" id="vo"  }
+	<tr>
+		<td>{:__($key)}</td>
+		<td style="word-break: break-all;">
+			{$vo}
+		</td>
+	</tr>
+	{/volist}
+
+	</tbody>
+</table>
+
+
+<h2>产品信息</h2>
+<table class="table table-striped">
+
+	<tbody>
+
+	{volist name="goods_info" id="vo"  }
+	<tr>
+		<td>{:__($key)}</td>
+		<td style="word-break: break-all;">
+		{if condition="$key eq 'cover_img'"}
+
+			<img src="{$vo}" alt="" style="width: 10rem;height:10rem" class="clickimg">
+
+		{else/}
+			{$vo}
+		{/if}
+		</td>
+	</tr>
+	{/volist}
+
+	</tbody>
+</table>
+
+
+<div class="hide layer-footer">
+	<label class="control-label col-xs-12 col-sm-2"></label>
+	<div class="col-xs-12 col-sm-8">
+		<button type="reset" class="btn btn-primary btn-embossed btn-close" onclick="Layer.closeAll();">{:__('Close')}</button>
+		{if condition="$other_info.state eq 2||$other_info.state eq 3"}
+		<button  class="btn btn-primary btn-embossed btn-sendKt" style="background: #753ECD" data-id="{$other_info.id}">
+			{switch name="$other_info.state"}
+				{case value='2'}
+					{:__('立即发货')}
+				{/case}
+				{case value='3'}
+					{:__('修改发货')}
+				{/case}
+			{/switch}
+		</button>
+
+		{/if}
+		{if condition="$other_info.state neq 4"}
+		<button  class="btn btn-primary btn-danger btn-refund" data-id="{$other_info.id}">{:__('退款闭单')}</button>
+		{/if}
+		{if condition="$other_info.state neq 1"}
+		<button  class="btn btn-primary btn-warm btn-end" data-id="{$other_info.id}" style="background: green">{:__('已完成')}</button>
+		{/if}
+	</div>
+</div>

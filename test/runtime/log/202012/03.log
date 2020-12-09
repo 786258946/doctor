@@ -1,0 +1,9 @@
+---------------------------------------------------------------
+[ 2020-12-03T02:15:16+08:00 ] 218.5.79.38 GET lehai.saifer.club/
+[运行时间：0.207553s] [吞吐率：4.82req/s] [内存消耗：2,059.46kb] [文件加载：110]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.017877s ]
+[ info ] [ LANG ] /www/wwwroot/lehai.saifer.club/test/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.002658s ]
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,32 @@
+<?php
+
+return [
+    'Cover_img'    => '封面图',
+    'Name'         => '名称',
+    'Kcal'         => '热量',
+    'Suggestion'   => '饮食建议',
+    'Remark'       => '备注',
+    'Unit'         => '单位',
+    'Carbohydrate' => '碳水化合物',
+    'Protein'      => '蛋白质',
+    'Fat'          => '脂肪',
+    'Eatfiber'     => '膳食纤维',
+    'Vitamina'     => '维生素A',
+    'Vitaminc'     => '维生素C',
+    'Vitamine'     => '维生素E',
+    'Carotene'     => '胡萝卜素',
+    'Vitaminb1'    => '维生素B1',
+    'Vitaminb2'    => '维生素B2',
+    'Niacin'       => '烟酸',
+    'Cholesterol'  => '胆固醇',
+    'Magnesium'    => '镁',
+    'Calcium'      => '钙',
+    'Iron'         => '铁',
+    'Zinc'         => '锌',
+    'Copper'       => '铜',
+    'Manganese'    => '锰',
+    'Potassium'    => '钾',
+    'Phosphorus'   => '磷',
+    'Sodium'       => '钠',
+    'Selenium'     => ' 硒'
+];

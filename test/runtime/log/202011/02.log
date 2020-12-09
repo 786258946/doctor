@@ -1,0 +1,9 @@
+---------------------------------------------------------------
+[ 2020-11-02T09:02:10+08:00 ] 0.0.0.0 GET localhost/test/public/
+[运行时间：2.276312s] [吞吐率：0.44req/s] [内存消耗：1,629.09kb] [文件加载：111]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.027992s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.065917s ]
+[ info ] [ LANG ] D:\phpstudy\PHPTutorial\WWW\test\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.013996s ]
+[ info ] [ LOG ] INIT File
